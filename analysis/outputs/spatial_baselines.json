@@ -1,0 +1,354 @@
+{
+  "metadata": {
+    "stations": [
+      "Bollaram Industrial Area",
+      "Central University",
+      "ECIL Kapra",
+      "ICRISAT Patancheru"
+    ],
+    "horizon_configs": {
+      "h1": "stacking",
+      "h6": "stacking",
+      "h24": "lgb",
+      "h48": "lgb"
+    }
+  },
+  "results": {
+    "h1": {
+      "all_rows": {
+        "by_station": {
+          "direct_model": {
+            "Bollaram Industrial Area": 4.112215251486913,
+            "Central University": 2.541143941413863,
+            "ECIL Kapra": 2.177703893981405,
+            "ICRISAT Patancheru": 3.9947210465313243
+          },
+          "idw_p2": {
+            "Bollaram Industrial Area": 13.1685343937346,
+            "Central University": 12.844068262616696,
+            "ECIL Kapra": 11.671904155778012,
+            "ICRISAT Patancheru": 9.135107259508112
+          },
+          "donor_mean": {
+            "Bollaram Industrial Area": 14.687450876411503,
+            "Central University": 13.246065514002145,
+            "ECIL Kapra": 11.875432306771883,
+            "ICRISAT Patancheru": 10.370986575738257
+          },
+          "station_train_mean": {
+            "Bollaram Industrial Area": 20.86544026572133,
+            "Central University": 14.728021068924305,
+            "ECIL Kapra": 7.271848033683169,
+            "ICRISAT Patancheru": 18.87901730361167
+          }
+        },
+        "macro_average": {
+          "direct_model": 3.2064460333533766,
+          "idw_p2": 11.704903517909356,
+          "donor_mean": 12.544983818230948,
+          "station_train_mean": 15.436081667985118
+        },
+        "pooled_mae": {
+          "direct_model": 3.0106411517042564,
+          "idw_p2": 11.42589849384122,
+          "donor_mean": 12.12143823348791,
+          "station_train_mean": 14.259654051908225
+        },
+        "n_stations": 4
+      },
+      "common_timestamps": {
+        "by_station": {
+          "direct_model": {
+            "Bollaram Industrial Area": 4.0799050229648826,
+            "Central University": 2.663635478327609,
+            "ECIL Kapra": 2.397775741538521,
+            "ICRISAT Patancheru": 3.812313005446507
+          },
+          "idw_p2": {
+            "Bollaram Industrial Area": 12.691532900140684,
+            "Central University": 11.127151550626891,
+            "ECIL Kapra": 14.769579698190931,
+            "ICRISAT Patancheru": 6.980526560259415
+          },
+          "donor_mean": {
+            "Bollaram Industrial Area": 14.178956474115612,
+            "Central University": 9.239237955773918,
+            "ECIL Kapra": 14.607931818268757,
+            "ICRISAT Patancheru": 7.440400862299971
+          },
+          "station_train_mean": {
+            "Bollaram Industrial Area": 20.49625863552081,
+            "Central University": 12.936204461121074,
+            "ECIL Kapra": 8.022519620817482,
+            "ICRISAT Patancheru": 15.770522763129357
+          }
+        },
+        "macro_average": {
+          "direct_model": 3.2384073120693797,
+          "idw_p2": 11.39219767730448,
+          "donor_mean": 11.366631777614566,
+          "station_train_mean": 14.30637637014718
+        },
+        "pooled_mae": {
+          "direct_model": 3.2384073120693793,
+          "idw_p2": 11.392197677304479,
+          "donor_mean": 11.366631777614565,
+          "station_train_mean": 14.30637637014718
+        },
+        "n_stations": 4
+      }
+    },
+    "h6": {
+      "all_rows": {
+        "by_station": {
+          "direct_model": {
+            "Bollaram Industrial Area": 7.694847104163627,
+            "Central University": 5.1615894482786056,
+            "ECIL Kapra": 4.719922855613818,
+            "ICRISAT Patancheru": 7.607448438619016
+          },
+          "idw_p2": {
+            "Bollaram Industrial Area": 12.565447229545,
+            "Central University": 14.183924178816714,
+            "ECIL Kapra": 10.829071185138213,
+            "ICRISAT Patancheru": 9.710117543520239
+          },
+          "donor_mean": {
+            "Bollaram Industrial Area": 14.254674844446884,
+            "Central University": 14.448788473864742,
+            "ECIL Kapra": 11.01843774769151,
+            "ICRISAT Patancheru": 10.907655304588246
+          },
+          "station_train_mean": {
+            "Bollaram Industrial Area": 20.736851181293513,
+            "Central University": 14.744188361549394,
+            "ECIL Kapra": 7.274633125151797,
+            "ICRISAT Patancheru": 18.822938385427676
+          }
+        },
+        "macro_average": {
+          "direct_model": 6.2959519616687665,
+          "idw_p2": 11.822140034255042,
+          "donor_mean": 12.657389092647845,
+          "station_train_mean": 15.394652763355595
+        },
+        "pooled_mae": {
+          "direct_model": 5.987414916570357,
+          "idw_p2": 11.678073864629694,
+          "donor_mean": 12.330662055464469,
+          "station_train_mean": 14.212260279476471
+        },
+        "n_stations": 4
+      },
+      "common_timestamps": {
+        "by_station": {
+          "direct_model": {
+            "Bollaram Industrial Area": 7.527574985783694,
+            "Central University": 5.177474822491277,
+            "ECIL Kapra": 5.195022018715067,
+            "ICRISAT Patancheru": 7.2526781938297855
+          },
+          "idw_p2": {
+            "Bollaram Industrial Area": 12.29540036266018,
+            "Central University": 11.95323459135022,
+            "ECIL Kapra": 14.311931604995294,
+            "ICRISAT Patancheru": 7.97656385572632
+          },
+          "donor_mean": {
+            "Bollaram Industrial Area": 13.906091926028612,
+            "Central University": 10.293870395797311,
+            "ECIL Kapra": 14.173175771300665,
+            "ICRISAT Patancheru": 8.172738042524408
+          },
+          "station_train_mean": {
+            "Bollaram Industrial Area": 20.444128054751406,
+            "Central University": 12.919135021097048,
+            "ECIL Kapra": 8.092129615406543,
+            "ICRISAT Patancheru": 15.605446763295904
+          }
+        },
+        "macro_average": {
+          "direct_model": 6.288187505204956,
+          "idw_p2": 11.634282603683003,
+          "donor_mean": 11.636469033912748,
+          "station_train_mean": 14.265209863637724
+        },
+        "pooled_mae": {
+          "direct_model": 6.288187505204955,
+          "idw_p2": 11.634282603683005,
+          "donor_mean": 11.636469033912748,
+          "station_train_mean": 14.265209863637724
+        },
+        "n_stations": 4
+      }
+    },
+    "h24": {
+      "all_rows": {
+        "by_station": {
+          "direct_model": {
+            "Bollaram Industrial Area": 8.78862531433936,
+            "Central University": 5.598673441049404,
+            "ECIL Kapra": 5.313572411670607,
+            "ICRISAT Patancheru": 8.550049085058168
+          },
+          "idw_p2": {
+            "Bollaram Industrial Area": 13.374330082328003,
+            "Central University": 14.581262797935628,
+            "ECIL Kapra": 9.875823613566661,
+            "ICRISAT Patancheru": 10.219518574153176
+          },
+          "donor_mean": {
+            "Bollaram Industrial Area": 14.88142528205403,
+            "Central University": 14.934733758017005,
+            "ECIL Kapra": 10.095857873198877,
+            "ICRISAT Patancheru": 11.450562840302771
+          },
+          "station_train_mean": {
+            "Bollaram Industrial Area": 20.730278745310716,
+            "Central University": 14.715515381344487,
+            "ECIL Kapra": 7.2767540400449695,
+            "ICRISAT Patancheru": 18.688503902744067
+          }
+        },
+        "macro_average": {
+          "direct_model": 7.0627300630293846,
+          "idw_p2": 12.012733766995867,
+          "donor_mean": 12.84064493839317,
+          "station_train_mean": 15.35276301736106
+        },
+        "pooled_mae": {
+          "direct_model": 6.668232363694251,
+          "idw_p2": 11.71112808124997,
+          "donor_mean": 12.38622005607984,
+          "station_train_mean": 14.094636050339156
+        },
+        "n_stations": 4
+      },
+      "common_timestamps": {
+        "by_station": {
+          "direct_model": {
+            "Bollaram Industrial Area": 8.46872303699141,
+            "Central University": 5.483261168281937,
+            "ECIL Kapra": 6.075218208717172,
+            "ICRISAT Patancheru": 7.870684404048154
+          },
+          "idw_p2": {
+            "Bollaram Industrial Area": 13.15846188468758,
+            "Central University": 11.481956160206106,
+            "ECIL Kapra": 13.485744081924082,
+            "ICRISAT Patancheru": 8.12783886591412
+          },
+          "donor_mean": {
+            "Bollaram Industrial Area": 14.569186146012191,
+            "Central University": 10.253328846130307,
+            "ECIL Kapra": 13.381334956498586,
+            "ICRISAT Patancheru": 8.631998872444743
+          },
+          "station_train_mean": {
+            "Bollaram Industrial Area": 20.835351875799766,
+            "Central University": 12.98982817158004,
+            "ECIL Kapra": 7.9296866618124655,
+            "ICRISAT Patancheru": 15.61096588392565
+          }
+        },
+        "macro_average": {
+          "direct_model": 6.974471704509668,
+          "idw_p2": 11.563500248182972,
+          "donor_mean": 11.708962205271458,
+          "station_train_mean": 14.34145814827948
+        },
+        "pooled_mae": {
+          "direct_model": 6.974471704509668,
+          "idw_p2": 11.563500248182972,
+          "donor_mean": 11.708962205271458,
+          "station_train_mean": 14.34145814827948
+        },
+        "n_stations": 4
+      }
+    },
+    "h48": {
+      "all_rows": {
+        "by_station": {
+          "direct_model": {
+            "Bollaram Industrial Area": 10.413569286199783,
+            "Central University": 7.108658367188252,
+            "ECIL Kapra": 6.049869319778179,
+            "ICRISAT Patancheru": 10.033162008459996
+          },
+          "idw_p2": {
+            "Bollaram Industrial Area": 13.31807448606111,
+            "Central University": 15.222062138672205,
+            "ECIL Kapra": 9.260769194729939,
+            "ICRISAT Patancheru": 10.913028782353503
+          },
+          "donor_mean": {
+            "Bollaram Industrial Area": 14.801140751080482,
+            "Central University": 15.508988158321936,
+            "ECIL Kapra": 9.480576386103332,
+            "ICRISAT Patancheru": 12.030779852101993
+          },
+          "station_train_mean": {
+            "Bollaram Industrial Area": 20.69155139493311,
+            "Central University": 14.584131626853983,
+            "ECIL Kapra": 7.2772894653186295,
+            "ICRISAT Patancheru": 18.693426768911475
+          }
+        },
+        "macro_average": {
+          "direct_model": 8.401314745406552,
+          "idw_p2": 12.17848365045419,
+          "donor_mean": 12.955371286901935,
+          "station_train_mean": 15.3115998140043
+        },
+        "pooled_mae": {
+          "direct_model": 7.9304471161928225,
+          "idw_p2": 11.893298283332399,
+          "donor_mean": 12.511766053125859,
+          "station_train_mean": 14.023498547591798
+        },
+        "n_stations": 4
+      },
+      "common_timestamps": {
+        "by_station": {
+          "direct_model": {
+            "Bollaram Industrial Area": 10.132026797125473,
+            "Central University": 6.992313005047289,
+            "ECIL Kapra": 6.507921654095123,
+            "ICRISAT Patancheru": 10.147359039610956
+          },
+          "idw_p2": {
+            "Bollaram Industrial Area": 13.2324982917206,
+            "Central University": 12.369938817287226,
+            "ECIL Kapra": 13.87937054885063,
+            "ICRISAT Patancheru": 9.288038490736131
+          },
+          "donor_mean": {
+            "Bollaram Industrial Area": 14.589057711770199,
+            "Central University": 10.94631590400222,
+            "ECIL Kapra": 13.852903919332999,
+            "ICRISAT Patancheru": 9.541525543724516
+          },
+          "station_train_mean": {
+            "Bollaram Industrial Area": 20.73883396155571,
+            "Central University": 12.946841271753389,
+            "ECIL Kapra": 7.821805294575842,
+            "ICRISAT Patancheru": 15.57604237234772
+          }
+        },
+        "macro_average": {
+          "direct_model": 8.44490512396971,
+          "idw_p2": 12.192461537148645,
+          "donor_mean": 12.232450769707484,
+          "station_train_mean": 14.270880725058165
+        },
+        "pooled_mae": {
+          "direct_model": 8.44490512396971,
+          "idw_p2": 12.192461537148647,
+          "donor_mean": 12.232450769707482,
+          "station_train_mean": 14.270880725058165
+        },
+        "n_stations": 4
+      }
+    }
+  }
+}

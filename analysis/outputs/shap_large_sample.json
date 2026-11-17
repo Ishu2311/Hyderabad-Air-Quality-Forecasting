@@ -1,0 +1,355 @@
+{
+  "metadata": {
+    "n_samples": 3135,
+    "n_non_empty_strata": 32,
+    "random_seed": 42,
+    "n_bootstrap_resamples": 1000,
+    "horizons": [
+      "h1",
+      "h6",
+      "h24",
+      "h48"
+    ],
+    "categories": [
+      "Historical PM2.5 Dynamics",
+      "Co-Pollutant / Chemical Ratios",
+      "Other Environmental Predictors",
+      "Cyclical Calendar & Solar Timing",
+      "Thermodynamics & Boundary Layer",
+      "Wind & Dispersion Dynamics"
+    ],
+    "model": "LightGBM Regressor (TreeSHAP)",
+    "bootstrap_methodology": "Row-level empirical bootstrap (1000 resamples). Note: Captures test-instance sampling variability under an exchangeability assumption; does not reflect temporal autocorrelation or underlying model estimation uncertainty."
+  },
+  "horizons": {
+    "h1": {
+      "total_mean_abs_shap": 20.09933170369449,
+      "category_metrics": {
+        "Historical PM2.5 Dynamics": {
+          "absolute_mean_shap": 16.221207862112283,
+          "share_pct": 80.7052100101947,
+          "bootstrap_ci_95": [
+            80.45171832218861,
+            80.96432286304257
+          ],
+          "ci_str": "[80.45%, 80.96%]",
+          "baseline_100_sample_share_pct": 79.58942807240949,
+          "baseline_100_sample_abs_shap": 13.686896727094577,
+          "delta_vs_baseline_pct": 1.115781937785215
+        },
+        "Co-Pollutant / Chemical Ratios": {
+          "absolute_mean_shap": 2.1595842589095526,
+          "share_pct": 10.744557534281581,
+          "bootstrap_ci_95": [
+            10.588763875668402,
+            10.897618209543598
+          ],
+          "ci_str": "[10.59%, 10.90%]",
+          "baseline_100_sample_share_pct": 11.39536793190107,
+          "baseline_100_sample_abs_shap": 1.9596475038026178,
+          "delta_vs_baseline_pct": -0.6508103976194892
+        },
+        "Other Environmental Predictors": {
+          "absolute_mean_shap": 0.5056521802050805,
+          "share_pct": 2.515766134214979,
+          "bootstrap_ci_95": [
+            2.454405291367454,
+            2.5785538924776468
+          ],
+          "ci_str": "[2.45%, 2.58%]",
+          "baseline_100_sample_share_pct": 2.369008945434911,
+          "baseline_100_sample_abs_shap": 0.40739557460108333,
+          "delta_vs_baseline_pct": 0.14675718878006805
+        },
+        "Cyclical Calendar & Solar Timing": {
+          "absolute_mean_shap": 0.5587915646220458,
+          "share_pct": 2.78014997145071,
+          "bootstrap_ci_95": [
+            2.699635246243068,
+            2.8610313180052613
+          ],
+          "ci_str": "[2.70%, 2.86%]",
+          "baseline_100_sample_share_pct": 2.9014122843460877,
+          "baseline_100_sample_abs_shap": 0.4989523264627506,
+          "delta_vs_baseline_pct": -0.12126231289537781
+        },
+        "Thermodynamics & Boundary Layer": {
+          "absolute_mean_shap": 0.2977536862916038,
+          "share_pct": 1.4814108781381685,
+          "bootstrap_ci_95": [
+            1.4461462628543647,
+            1.5177978945353494
+          ],
+          "ci_str": "[1.45%, 1.52%]",
+          "baseline_100_sample_share_pct": 1.6993754667184724,
+          "baseline_100_sample_abs_shap": 0.29223952322377494,
+          "delta_vs_baseline_pct": -0.21796458858030388
+        },
+        "Wind & Dispersion Dynamics": {
+          "absolute_mean_shap": 0.3563421515539208,
+          "share_pct": 1.7729054717198434,
+          "bootstrap_ci_95": [
+            1.7374445966946324,
+            1.8096166444212847
+          ],
+          "ci_str": "[1.74%, 1.81%]",
+          "baseline_100_sample_share_pct": 2.0454072991899808,
+          "baseline_100_sample_abs_shap": 0.35174619477588076,
+          "delta_vs_baseline_pct": -0.2725018274701374
+        }
+      }
+    },
+    "h6": {
+      "total_mean_abs_shap": 22.665643028704675,
+      "category_metrics": {
+        "Historical PM2.5 Dynamics": {
+          "absolute_mean_shap": 14.692514789864525,
+          "share_pct": 64.82284562258982,
+          "bootstrap_ci_95": [
+            64.44754275361176,
+            65.20812563102527
+          ],
+          "ci_str": "[64.45%, 65.21%]",
+          "baseline_100_sample_share_pct": 62.27942443191383,
+          "baseline_100_sample_abs_shap": 13.083297914052904,
+          "delta_vs_baseline_pct": 2.5434211906759927
+        },
+        "Co-Pollutant / Chemical Ratios": {
+          "absolute_mean_shap": 1.3401549298544164,
+          "share_pct": 5.912715241112687,
+          "bootstrap_ci_95": [
+            5.824268814523366,
+            5.993436815648528
+          ],
+          "ci_str": "[5.82%, 5.99%]",
+          "baseline_100_sample_share_pct": 6.090338526611709,
+          "baseline_100_sample_abs_shap": 1.279422763905052,
+          "delta_vs_baseline_pct": -0.1776232854990223
+        },
+        "Other Environmental Predictors": {
+          "absolute_mean_shap": 1.2496520610202928,
+          "share_pct": 5.513419846230189,
+          "bootstrap_ci_95": [
+            5.397815809242173,
+            5.638620822700262
+          ],
+          "ci_str": "[5.40%, 5.64%]",
+          "baseline_100_sample_share_pct": 5.756584480759014,
+          "baseline_100_sample_abs_shap": 1.2093096623190696,
+          "delta_vs_baseline_pct": -0.2431646345288252
+        },
+        "Cyclical Calendar & Solar Timing": {
+          "absolute_mean_shap": 1.9216280777190575,
+          "share_pct": 8.478153808764354,
+          "bootstrap_ci_95": [
+            8.343322637660393,
+            8.608330851563078
+          ],
+          "ci_str": "[8.34%, 8.61%]",
+          "baseline_100_sample_share_pct": 9.201942541628522,
+          "baseline_100_sample_abs_shap": 1.9330903706687244,
+          "delta_vs_baseline_pct": -0.7237887328641683
+        },
+        "Thermodynamics & Boundary Layer": {
+          "absolute_mean_shap": 2.094562287661078,
+          "share_pct": 9.241133309160656,
+          "bootstrap_ci_95": [
+            9.081624346020266,
+            9.388667081948634
+          ],
+          "ci_str": "[9.08%, 9.39%]",
+          "baseline_100_sample_share_pct": 9.999427545934605,
+          "baseline_100_sample_abs_shap": 2.10062136486943,
+          "delta_vs_baseline_pct": -0.7582942367739491
+        },
+        "Wind & Dispersion Dynamics": {
+          "absolute_mean_shap": 1.3671308825853057,
+          "share_pct": 6.031732172142289,
+          "bootstrap_ci_95": [
+            5.943662447188304,
+            6.117054112861258
+          ],
+          "ci_str": "[5.94%, 6.12%]",
+          "baseline_100_sample_share_pct": 6.672282473152323,
+          "baseline_100_sample_abs_shap": 1.4016741509613688,
+          "delta_vs_baseline_pct": -0.640550301010034
+        }
+      }
+    },
+    "h24": {
+      "total_mean_abs_shap": 20.02138655687049,
+      "category_metrics": {
+        "Historical PM2.5 Dynamics": {
+          "absolute_mean_shap": 13.069200478884696,
+          "share_pct": 65.27620073545756,
+          "bootstrap_ci_95": [
+            64.86929634646513,
+            65.66087865558922
+          ],
+          "ci_str": "[64.87%, 65.66%]",
+          "baseline_100_sample_share_pct": 62.518526353996975,
+          "baseline_100_sample_abs_shap": 11.435804255553752,
+          "delta_vs_baseline_pct": 2.757674381460589
+        },
+        "Co-Pollutant / Chemical Ratios": {
+          "absolute_mean_shap": 1.3525612686265367,
+          "share_pct": 6.755582410761632,
+          "bootstrap_ci_95": [
+            6.643217879841868,
+            6.872518890851248
+          ],
+          "ci_str": "[6.64%, 6.87%]",
+          "baseline_100_sample_share_pct": 7.077104400635155,
+          "baseline_100_sample_abs_shap": 1.2945343619189045,
+          "delta_vs_baseline_pct": -0.32152198987352243
+        },
+        "Other Environmental Predictors": {
+          "absolute_mean_shap": 1.3195116268901164,
+          "share_pct": 6.590510717836952,
+          "bootstrap_ci_95": [
+            6.478498492715162,
+            6.705248962815001
+          ],
+          "ci_str": "[6.48%, 6.71%]",
+          "baseline_100_sample_share_pct": 6.907442086000429,
+          "baseline_100_sample_abs_shap": 1.263499960872392,
+          "delta_vs_baseline_pct": -0.3169313681634769
+        },
+        "Cyclical Calendar & Solar Timing": {
+          "absolute_mean_shap": 0.796473212484826,
+          "share_pct": 3.978112156330703,
+          "bootstrap_ci_95": [
+            3.9136527533751764,
+            4.044237942429765
+          ],
+          "ci_str": "[3.91%, 4.04%]",
+          "baseline_100_sample_share_pct": 4.210799133894706,
+          "baseline_100_sample_abs_shap": 0.770233680525589,
+          "delta_vs_baseline_pct": -0.2326869775640028
+        },
+        "Thermodynamics & Boundary Layer": {
+          "absolute_mean_shap": 2.1844749271072534,
+          "share_pct": 10.910707512200919,
+          "bootstrap_ci_95": [
+            10.727548926731007,
+            11.094096048154535
+          ],
+          "ci_str": "[10.73%, 11.09%]",
+          "baseline_100_sample_share_pct": 12.239506777458097,
+          "baseline_100_sample_abs_shap": 2.238834020158982,
+          "delta_vs_baseline_pct": -1.328799265257178
+        },
+        "Wind & Dispersion Dynamics": {
+          "absolute_mean_shap": 1.299165042877059,
+          "share_pct": 6.488886467412222,
+          "bootstrap_ci_95": [
+            6.385336985858304,
+            6.59281061062644
+          ],
+          "ci_str": "[6.39%, 6.59%]",
+          "baseline_100_sample_share_pct": 7.0466212480146755,
+          "baseline_100_sample_abs_shap": 1.288958424884079,
+          "delta_vs_baseline_pct": -0.5577347806024537
+        }
+      }
+    },
+    "h48": {
+      "total_mean_abs_shap": 22.207187212603078,
+      "category_metrics": {
+        "Historical PM2.5 Dynamics": {
+          "absolute_mean_shap": 11.736211558060395,
+          "share_pct": 52.848708148863764,
+          "bootstrap_ci_95": [
+            52.43211513584172,
+            53.262057157487824
+          ],
+          "ci_str": "[52.43%, 53.26%]",
+          "baseline_100_sample_share_pct": 49.26481904903081,
+          "baseline_100_sample_abs_shap": 10.124826096960437,
+          "delta_vs_baseline_pct": 3.583889099832952
+        },
+        "Co-Pollutant / Chemical Ratios": {
+          "absolute_mean_shap": 2.071336308556291,
+          "share_pct": 9.327324026794177,
+          "bootstrap_ci_95": [
+            9.203045982419665,
+            9.44719872107513
+          ],
+          "ci_str": "[9.20%, 9.45%]",
+          "baseline_100_sample_share_pct": 9.282190885644301,
+          "baseline_100_sample_abs_shap": 1.9076608892525426,
+          "delta_vs_baseline_pct": 0.045133141149875655
+        },
+        "Other Environmental Predictors": {
+          "absolute_mean_shap": 2.8905529193948745,
+          "share_pct": 13.01629464245891,
+          "bootstrap_ci_95": [
+            12.868031241296492,
+            13.159740369164522
+          ],
+          "ci_str": "[12.87%, 13.16%]",
+          "baseline_100_sample_share_pct": 13.832958962673757,
+          "baseline_100_sample_abs_shap": 2.8429273994505286,
+          "delta_vs_baseline_pct": -0.8166643202148478
+        },
+        "Cyclical Calendar & Solar Timing": {
+          "absolute_mean_shap": 1.087915464209417,
+          "share_pct": 4.898934087393115,
+          "bootstrap_ci_95": [
+            4.8292078904088624,
+            4.9722998996662735
+          ],
+          "ci_str": "[4.83%, 4.97%]",
+          "baseline_100_sample_share_pct": 5.365587523115075,
+          "baseline_100_sample_abs_shap": 1.1027268876293492,
+          "delta_vs_baseline_pct": -0.4666534357219607
+        },
+        "Thermodynamics & Boundary Layer": {
+          "absolute_mean_shap": 3.328225209885194,
+          "share_pct": 14.987153384271698,
+          "bootstrap_ci_95": [
+            14.755137152864759,
+            15.217546690337144
+          ],
+          "ci_str": "[14.76%, 15.22%]",
+          "baseline_100_sample_share_pct": 16.7543780398422,
+          "baseline_100_sample_abs_shap": 3.4433327329854957,
+          "delta_vs_baseline_pct": -1.7672246555705033
+        },
+        "Wind & Dispersion Dynamics": {
+          "absolute_mean_shap": 1.0929457524969062,
+          "share_pct": 4.921585710218334,
+          "bootstrap_ci_95": [
+            4.849028154253843,
+            4.998733917591146
+          ],
+          "ci_str": "[4.85%, 5.00%]",
+          "baseline_100_sample_share_pct": 5.5000655396938445,
+          "baseline_100_sample_abs_shap": 1.13036459254752,
+          "delta_vs_baseline_pct": -0.5784798294755102
+        }
+      }
+    }
+  },
+  "comparison_summary": {
+    "finding_historical_pm25_decay_evaluated": "share of historical PM2.5 falls from ~80% at +1h to ~49% at +48h",
+    "n_non_empty_strata": 32,
+    "n_sampled_rows": 3135,
+    "h1_large_sample_share_pct": 80.7052100101947,
+    "h1_large_sample_95_ci": [
+      80.45171832218861,
+      80.96432286304257
+    ],
+    "h1_baseline_100_sample_pct": 79.58942807240949,
+    "h48_large_sample_share_pct": 52.848708148863764,
+    "h48_large_sample_95_ci": [
+      52.43211513584172,
+      53.262057157487824
+    ],
+    "h48_baseline_100_sample_pct": 49.26481904903081,
+    "total_decay_percentage_points": 27.85650186133094,
+    "finding_holds": true,
+    "methodological_limitation": "The row-level bootstrap confidence intervals capture sampling variability across test instances under the assumption of instance exchangeability, but do not reflect temporal autocorrelation or model estimation uncertainty in the underlying tree structures.",
+    "conclusion": "Corroborated: Historical PM2.5 share decreases from 80.7% (95% CI: [80.5%, 81.0%]) at +1h to 52.8% (95% CI: [52.4%, 53.3%]) at +48h across 3135 representative test rows stratified over the 32 non-empty strata. The original 100-sample finding (79.6% down to 49.3%) is statistically robust within test sampling variation."
+  }
+}

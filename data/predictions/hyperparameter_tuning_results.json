@@ -1,0 +1,91 @@
+{
+  "random_seed": 42,
+  "search_space": {
+    "lightgbm": {
+      "learning_rate": [
+        0.01,
+        0.03,
+        0.05
+      ],
+      "num_leaves": [
+        15,
+        31,
+        63
+      ],
+      "colsample_bytree": [
+        0.7,
+        0.8,
+        1.0
+      ]
+    },
+    "xgboost": {
+      "learning_rate": [
+        0.01,
+        0.03,
+        0.05
+      ],
+      "max_depth": [
+        4,
+        6,
+        8
+      ],
+      "colsample_bytree": [
+        0.7,
+        0.8,
+        1.0
+      ]
+    }
+  },
+  "horizons": {
+    "h1": {
+      "target_col": "target_pm25_h1",
+      "lightgbm": {
+        "best_params": {
+          "learning_rate": 0.03,
+          "num_leaves": 63,
+          "colsample_bytree": 0.7,
+          "val_rmse": 6.037714519087101
+        },
+        "best_val_rmse": 6.037714519087101,
+        "elapsed_seconds": 192.0,
+        "total_trials": 27
+      },
+      "xgboost": {
+        "best_params": {
+          "learning_rate": 0.05,
+          "max_depth": 6,
+          "colsample_bytree": 0.7,
+          "val_rmse": 5.985351287964809
+        },
+        "best_val_rmse": 5.985351287964809,
+        "elapsed_seconds": 269.32,
+        "total_trials": 18
+      }
+    },
+    "h24": {
+      "target_col": "target_pm25_h24",
+      "lightgbm": {
+        "best_params": {
+          "learning_rate": 0.05,
+          "num_leaves": 15,
+          "colsample_bytree": 0.7,
+          "val_rmse": 11.515900933360172
+        },
+        "best_val_rmse": 11.515900933360172,
+        "elapsed_seconds": 178.56,
+        "total_trials": 27
+      },
+      "xgboost": {
+        "best_params": {
+          "learning_rate": 0.03,
+          "max_depth": 6,
+          "colsample_bytree": 0.7,
+          "val_rmse": 11.526694655762158
+        },
+        "best_val_rmse": 11.526694655762158,
+        "elapsed_seconds": 258.4,
+        "total_trials": 18
+      }
+    }
+  }
+}

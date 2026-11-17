@@ -1,0 +1,179 @@
+{
+  "horizon": "h6",
+  "primary_model": "stacking",
+  "expected_value": 33.99652281354107,
+  "n_explain_samples": 100,
+  "meta_coefficients": {
+    "beta_rf": 0.0654033837687876,
+    "beta_xgb": 0.19126570902135348,
+    "beta_lgb": 0.7822991330081749,
+    "intercept": -1.0041801820405638
+  },
+  "top_15_features": [
+    {
+      "rank": 1,
+      "feature": "pm25_roll_mean_24h",
+      "mean_abs_shap": 6.976346463095755
+    },
+    {
+      "rank": 2,
+      "feature": "PM2.5",
+      "mean_abs_shap": 2.625822213761469
+    },
+    {
+      "rank": 3,
+      "feature": "pressure_tendency_3h",
+      "mean_abs_shap": 1.072098982481135
+    },
+    {
+      "rank": 4,
+      "feature": "hour_sin",
+      "mean_abs_shap": 0.9549961143263797
+    },
+    {
+      "rank": 5,
+      "feature": "pm25_roll_mean_12h",
+      "mean_abs_shap": 0.6867244110027936
+    },
+    {
+      "rank": 6,
+      "feature": "hour_cos",
+      "mean_abs_shap": 0.6189246896324735
+    },
+    {
+      "rank": 7,
+      "feature": "pm25_roll_min_24h",
+      "mean_abs_shap": 0.6098463416045145
+    },
+    {
+      "rank": 8,
+      "feature": "pm25_trend_diff_24h",
+      "mean_abs_shap": 0.3746391664590278
+    },
+    {
+      "rank": 9,
+      "feature": "act_vapor_pressure_ea",
+      "mean_abs_shap": 0.35965418295618934
+    },
+    {
+      "rank": 10,
+      "feature": "rh_lag_1",
+      "mean_abs_shap": 0.3495909981898203
+    },
+    {
+      "rank": 11,
+      "feature": "wind_speed_roll_mean_24h",
+      "mean_abs_shap": 0.33192907947850697
+    },
+    {
+      "rank": 12,
+      "feature": "month_cos",
+      "mean_abs_shap": 0.3039724399731344
+    },
+    {
+      "rank": 13,
+      "feature": "is_morning_peak",
+      "mean_abs_shap": 0.2975749152752931
+    },
+    {
+      "rank": 14,
+      "feature": "PM10",
+      "mean_abs_shap": 0.29017170510274093
+    },
+    {
+      "rank": 15,
+      "feature": "pm25_roll_max_24h",
+      "mean_abs_shap": 0.2896262771280838
+    }
+  ],
+  "station_stratified_top5": {
+    "ECIL Kapra": [
+      {
+        "feature": "pm25_roll_mean_24h",
+        "mean_abs_shap": 3.953726409478823
+      },
+      {
+        "feature": "PM2.5",
+        "mean_abs_shap": 2.057695475502474
+      },
+      {
+        "feature": "pressure_tendency_3h",
+        "mean_abs_shap": 0.9686641430843415
+      },
+      {
+        "feature": "hour_sin",
+        "mean_abs_shap": 0.753248224524953
+      },
+      {
+        "feature": "hour_cos",
+        "mean_abs_shap": 0.6195835380052935
+      }
+    ],
+    "ICRISAT Patancheru": [
+      {
+        "feature": "pm25_roll_mean_24h",
+        "mean_abs_shap": 8.511949660811313
+      },
+      {
+        "feature": "PM2.5",
+        "mean_abs_shap": 3.235862502413226
+      },
+      {
+        "feature": "hour_sin",
+        "mean_abs_shap": 1.2704930531918275
+      },
+      {
+        "feature": "pressure_tendency_3h",
+        "mean_abs_shap": 1.1113497219665947
+      },
+      {
+        "feature": "pm25_roll_mean_12h",
+        "mean_abs_shap": 0.9070196840795749
+      }
+    ],
+    "Bollaram Industrial Area": [
+      {
+        "feature": "pm25_roll_mean_24h",
+        "mean_abs_shap": 3.669149797113071
+      },
+      {
+        "feature": "pressure_tendency_3h",
+        "mean_abs_shap": 1.0857813217803156
+      },
+      {
+        "feature": "hour_sin",
+        "mean_abs_shap": 0.9159284635867768
+      },
+      {
+        "feature": "PM2.5",
+        "mean_abs_shap": 0.8489616567035597
+      },
+      {
+        "feature": "pm25_roll_min_24h",
+        "mean_abs_shap": 0.6054774697539488
+      }
+    ],
+    "Central University": [
+      {
+        "feature": "pm25_roll_mean_24h",
+        "mean_abs_shap": 10.790616947745546
+      },
+      {
+        "feature": "PM2.5",
+        "mean_abs_shap": 3.835039698532723
+      },
+      {
+        "feature": "pressure_tendency_3h",
+        "mean_abs_shap": 1.122171750203873
+      },
+      {
+        "feature": "pm25_roll_mean_12h",
+        "mean_abs_shap": 0.984997913836637
+      },
+      {
+        "feature": "hour_sin",
+        "mean_abs_shap": 0.8159090076434243
+      }
+    ]
+  }
+}

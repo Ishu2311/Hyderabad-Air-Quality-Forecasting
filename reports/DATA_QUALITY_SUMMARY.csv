@@ -1,0 +1,57 @@
+station,variable,variable_type,total_hours,valid_count,missing_count,missing_pct,negative_count,min_val,max_val,mean_val
+Bollaram Industrial Area,PM2.5,pollutant,32856,23662,9194,27.98,0,1.0,88.0,36.66
+Bollaram Industrial Area,PM10,pollutant,32856,24219,8637,26.29,0,1.0,189.0,88.87
+Bollaram Industrial Area,NO,pollutant,32856,25553,7303,22.23,0,0.1,257.95,7.7
+Bollaram Industrial Area,NO2,pollutant,32856,25452,7404,22.53,0,0.1,412.5,25.13
+Bollaram Industrial Area,NH3,pollutant,32856,25572,7284,22.17,0,0.1,396.9,16.1
+Bollaram Industrial Area,SO2,pollutant,32856,25458,7398,22.52,0,0.1,183.75,12.47
+Bollaram Industrial Area,CO,pollutant,32856,25784,7072,21.52,0,0.0,10.0,0.83
+Bollaram Industrial Area,Ozone,pollutant,32856,25763,7093,21.59,0,0.7,161.23,39.15
+Bollaram Industrial Area,temperature_2m,meteorological,32856,32856,0,0.0,0,10.3,40.8,25.69
+Bollaram Industrial Area,relative_humidity_2m,meteorological,32856,32856,0,0.0,0,12.0,100.0,63.07
+Bollaram Industrial Area,wind_speed_10m,meteorological,32856,32856,0,0.0,0,0.0,33.0,10.67
+Bollaram Industrial Area,wind_direction_10m,meteorological,32856,32856,0,0.0,0,1.0,360.0,185.39
+Bollaram Industrial Area,precipitation,meteorological,32856,32856,0,0.0,0,0.0,15.8,0.12
+Bollaram Industrial Area,surface_pressure,meteorological,32856,32856,0,0.0,0,933.6,956.0,945.08
+Central University,PM2.5,pollutant,32856,29127,3729,11.35,0,1.0,87.0,24.52
+Central University,PM10,pollutant,32856,27668,5188,15.79,0,1.0,188.0,66.27
+Central University,NO,pollutant,32856,30201,2655,8.08,0,0.1,430.6,9.18
+Central University,NO2,pollutant,32856,29821,3035,9.24,0,0.1,491.7,29.48
+Central University,NH3,pollutant,32856,29746,3110,9.47,0,0.1,498.85,18.17
+Central University,SO2,pollutant,32856,29763,3093,9.41,0,0.1,175.67,6.21
+Central University,CO,pollutant,32856,30399,2457,7.48,0,0.0,24.62,0.49
+Central University,Ozone,pollutant,32856,30177,2679,8.15,0,0.2,490.6,13.97
+Central University,temperature_2m,meteorological,32856,32856,0,0.0,0,10.6,41.3,25.95
+Central University,relative_humidity_2m,meteorological,32856,32856,0,0.0,0,11.0,100.0,62.32
+Central University,wind_speed_10m,meteorological,32856,32856,0,0.0,0,0.0,32.8,10.37
+Central University,wind_direction_10m,meteorological,32856,32856,0,0.0,0,1.0,360.0,188.85
+Central University,precipitation,meteorological,32856,32856,0,0.0,0,0.0,13.0,0.11
+Central University,surface_pressure,meteorological,32856,32856,0,0.0,0,932.1,954.5,943.5
+ECIL Kapra,PM2.5,pollutant,32856,28519,4337,13.2,0,1.56,356.76,31.64
+ECIL Kapra,PM10,pollutant,32856,28360,4496,13.68,0,6.91,980.72,75.52
+ECIL Kapra,NO,pollutant,32856,29790,3066,9.33,0,0.02,210.71,7.21
+ECIL Kapra,NO2,pollutant,32856,29808,3048,9.28,0,0.01,90.74,12.66
+ECIL Kapra,NH3,pollutant,32856,29726,3130,9.53,0,0.01,383.39,19.83
+ECIL Kapra,SO2,pollutant,32856,27718,5138,15.64,0,0.01,160.09,11.55
+ECIL Kapra,CO,pollutant,32856,29779,3077,9.37,0,0.0,3.22,0.52
+ECIL Kapra,Ozone,pollutant,32856,29806,3050,9.28,0,0.01,160.6,27.9
+ECIL Kapra,temperature_2m,meteorological,32856,32856,0,0.0,0,11.2,41.0,26.22
+ECIL Kapra,relative_humidity_2m,meteorological,32856,32856,0,0.0,0,11.0,100.0,61.54
+ECIL Kapra,wind_speed_10m,meteorological,32856,32856,0,0.0,0,0.0,37.1,10.07
+ECIL Kapra,wind_direction_10m,meteorological,32856,32856,0,0.0,0,1.0,360.0,185.27
+ECIL Kapra,precipitation,meteorological,32856,32856,0,0.0,0,0.0,19.6,0.1
+ECIL Kapra,surface_pressure,meteorological,32856,32856,0,0.0,0,936.4,959.2,948.16
+ICRISAT Patancheru,PM2.5,pollutant,32856,30092,2764,8.41,0,1.0,87.0,36.15
+ICRISAT Patancheru,PM10,pollutant,32856,30344,2512,7.65,0,1.0,188.0,78.07
+ICRISAT Patancheru,NO,pollutant,32856,30628,2228,6.78,0,0.1,418.3,7.79
+ICRISAT Patancheru,NO2,pollutant,32856,29952,2904,8.84,0,0.1,487.8,12.11
+ICRISAT Patancheru,NH3,pollutant,32856,30389,2467,7.51,0,0.1,444.9,9.54
+ICRISAT Patancheru,SO2,pollutant,32856,30614,2242,6.82,0,0.1,161.28,12.23
+ICRISAT Patancheru,CO,pollutant,32856,31179,1677,5.1,0,0.0,8.65,0.62
+ICRISAT Patancheru,Ozone,pollutant,32856,30158,2698,8.21,0,0.1,176.48,34.22
+ICRISAT Patancheru,temperature_2m,meteorological,32856,32856,0,0.0,0,10.7,40.9,25.75
+ICRISAT Patancheru,relative_humidity_2m,meteorological,32856,32856,0,0.0,0,11.0,100.0,63.34
+ICRISAT Patancheru,wind_speed_10m,meteorological,32856,32856,0,0.0,0,0.0,34.8,10.65
+ICRISAT Patancheru,wind_direction_10m,meteorological,32856,32856,0,0.0,0,1.0,360.0,189.32
+ICRISAT Patancheru,precipitation,meteorological,32856,32856,0,0.0,0,0.0,15.9,0.12
+ICRISAT Patancheru,surface_pressure,meteorological,32856,32856,0,0.0,0,938.3,960.7,949.73

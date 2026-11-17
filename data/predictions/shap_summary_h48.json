@@ -1,0 +1,179 @@
+{
+  "horizon": "h48",
+  "primary_model": "lightgbm",
+  "expected_value": 33.69433720803093,
+  "n_explain_samples": 100,
+  "meta_coefficients": {
+    "beta_rf": 0.0,
+    "beta_xgb": 0.0,
+    "beta_lgb": 1.0,
+    "intercept": 0.0
+  },
+  "top_15_features": [
+    {
+      "rank": 1,
+      "feature": "PM2.5",
+      "mean_abs_shap": 2.618572856785625
+    },
+    {
+      "rank": 2,
+      "feature": "pm25_roll_mean_3h",
+      "mean_abs_shap": 1.9459414769291659
+    },
+    {
+      "rank": 3,
+      "feature": "pm25_roll_mean_24h",
+      "mean_abs_shap": 1.293736973845519
+    },
+    {
+      "rank": 4,
+      "feature": "surface_pressure",
+      "mean_abs_shap": 1.1629272024875426
+    },
+    {
+      "rank": 5,
+      "feature": "pm25_roll_min_24h",
+      "mean_abs_shap": 1.0210025435902197
+    },
+    {
+      "rank": 6,
+      "feature": "pm25_roll_mean_6h",
+      "mean_abs_shap": 0.939826557412641
+    },
+    {
+      "rank": 7,
+      "feature": "is_monsoon",
+      "mean_abs_shap": 0.8782100342157007
+    },
+    {
+      "rank": 8,
+      "feature": "pm25_lag_24",
+      "mean_abs_shap": 0.6648721932198042
+    },
+    {
+      "rank": 9,
+      "feature": "pm25_roll_mean_12h",
+      "mean_abs_shap": 0.5659112139488244
+    },
+    {
+      "rank": 10,
+      "feature": "Ozone",
+      "mean_abs_shap": 0.5573917127771303
+    },
+    {
+      "rank": 11,
+      "feature": "act_vapor_pressure_ea",
+      "mean_abs_shap": 0.4948830136067827
+    },
+    {
+      "rank": 12,
+      "feature": "temp_lag_1",
+      "mean_abs_shap": 0.4938559495378534
+    },
+    {
+      "rank": 13,
+      "feature": "dew_point_temp",
+      "mean_abs_shap": 0.3963253684834124
+    },
+    {
+      "rank": 14,
+      "feature": "CO",
+      "mean_abs_shap": 0.3760883622088006
+    },
+    {
+      "rank": 15,
+      "feature": "hour_cos",
+      "mean_abs_shap": 0.36262716927180727
+    }
+  ],
+  "station_stratified_top5": {
+    "ECIL Kapra": [
+      {
+        "feature": "PM2.5",
+        "mean_abs_shap": 2.0535419896893226
+      },
+      {
+        "feature": "pm25_roll_mean_3h",
+        "mean_abs_shap": 1.3932582564999316
+      },
+      {
+        "feature": "surface_pressure",
+        "mean_abs_shap": 1.1296888490415407
+      },
+      {
+        "feature": "is_monsoon",
+        "mean_abs_shap": 0.713333129229022
+      },
+      {
+        "feature": "pm25_roll_min_24h",
+        "mean_abs_shap": 0.7116162708218193
+      }
+    ],
+    "ICRISAT Patancheru": [
+      {
+        "feature": "PM2.5",
+        "mean_abs_shap": 3.2091358719813434
+      },
+      {
+        "feature": "pm25_roll_mean_3h",
+        "mean_abs_shap": 2.3156272770023905
+      },
+      {
+        "feature": "pm25_roll_mean_24h",
+        "mean_abs_shap": 1.4361157158343894
+      },
+      {
+        "feature": "surface_pressure",
+        "mean_abs_shap": 1.1631708851845426
+      },
+      {
+        "feature": "pm25_roll_mean_6h",
+        "mean_abs_shap": 1.1431482780015214
+      }
+    ],
+    "Bollaram Industrial Area": [
+      {
+        "feature": "PM2.5",
+        "mean_abs_shap": 1.20805284509356
+      },
+      {
+        "feature": "surface_pressure",
+        "mean_abs_shap": 1.207009699785365
+      },
+      {
+        "feature": "pm25_roll_min_24h",
+        "mean_abs_shap": 1.0233128060821686
+      },
+      {
+        "feature": "is_monsoon",
+        "mean_abs_shap": 0.938832818840249
+      },
+      {
+        "feature": "Ozone",
+        "mean_abs_shap": 0.8370058516827774
+      }
+    ],
+    "Central University": [
+      {
+        "feature": "PM2.5",
+        "mean_abs_shap": 3.5695245492168874
+      },
+      {
+        "feature": "pm25_roll_mean_3h",
+        "mean_abs_shap": 2.97233876865064
+      },
+      {
+        "feature": "pm25_roll_mean_24h",
+        "mean_abs_shap": 2.245412818298039
+      },
+      {
+        "feature": "pm25_roll_min_24h",
+        "mean_abs_shap": 1.2329279817427683
+      },
+      {
+        "feature": "pm25_roll_mean_6h",
+        "mean_abs_shap": 1.221728727606437
+      }
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "train": {
+    "rows": 69984,
+    "start": "2023-01-01 00:00:00",
+    "end": "2024-12-29 23:00:00",
+    "path": "C:\\Users\\harsha madala\\Documents\\Hyderabad_Air_Research\\new_research_project\\data\\processed\\purged_train_data.csv"
+  },
+  "validation": {
+    "rows": 34848,
+    "start": "2025-01-01 00:00:00",
+    "end": "2025-12-29 23:00:00",
+    "path": "C:\\Users\\harsha madala\\Documents\\Hyderabad_Air_Research\\new_research_project\\data\\processed\\purged_val_data.csv"
+  },
+  "test": {
+    "rows": 26016,
+    "start": "2026-01-01 00:00:00",
+    "end": "2026-09-28 23:00:00",
+    "path": "C:\\Users\\harsha madala\\Documents\\Hyderabad_Air_Research\\new_research_project\\data\\processed\\purged_test_data.csv"
+  }
+}

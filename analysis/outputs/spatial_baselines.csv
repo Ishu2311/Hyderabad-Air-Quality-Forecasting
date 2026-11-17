@@ -1,0 +1,193 @@
+horizon,model_used,subset,method,station,n_samples,mae,aggregation
+h1,stacking,all_rows,direct_model,Bollaram Industrial Area,1866,4.112215251486913,station_level
+h1,stacking,all_rows,idw_p2,Bollaram Industrial Area,1866,13.1685343937346,station_level
+h1,stacking,all_rows,donor_mean,Bollaram Industrial Area,1866,14.687450876411503,station_level
+h1,stacking,all_rows,station_train_mean,Bollaram Industrial Area,1866,20.86544026572133,station_level
+h1,stacking,all_rows,direct_model,Central University,5735,2.541143941413863,station_level
+h1,stacking,all_rows,idw_p2,Central University,5735,12.844068262616696,station_level
+h1,stacking,all_rows,donor_mean,Central University,5735,13.246065514002145,station_level
+h1,stacking,all_rows,station_train_mean,Central University,5735,14.728021068924305,station_level
+h1,stacking,all_rows,direct_model,ECIL Kapra,5849,2.177703893981405,station_level
+h1,stacking,all_rows,idw_p2,ECIL Kapra,5849,11.671904155778012,station_level
+h1,stacking,all_rows,donor_mean,ECIL Kapra,5849,11.875432306771883,station_level
+h1,stacking,all_rows,station_train_mean,ECIL Kapra,5849,7.271848033683169,station_level
+h1,stacking,all_rows,direct_model,ICRISAT Patancheru,5598,3.9947210465313243,station_level
+h1,stacking,all_rows,idw_p2,ICRISAT Patancheru,5598,9.135107259508112,station_level
+h1,stacking,all_rows,donor_mean,ICRISAT Patancheru,5598,10.370986575738257,station_level
+h1,stacking,all_rows,station_train_mean,ICRISAT Patancheru,5598,18.87901730361167,station_level
+h1,stacking,all_rows,direct_model,MACRO_AVERAGE,19048,3.2064460333533766,macro_average
+h1,stacking,all_rows,direct_model,POOLED_ALL_STATIONS,19048,3.0106411517042564,pooled_all_rows
+h1,stacking,all_rows,idw_p2,MACRO_AVERAGE,19048,11.704903517909356,macro_average
+h1,stacking,all_rows,idw_p2,POOLED_ALL_STATIONS,19048,11.42589849384122,pooled_all_rows
+h1,stacking,all_rows,donor_mean,MACRO_AVERAGE,19048,12.544983818230948,macro_average
+h1,stacking,all_rows,donor_mean,POOLED_ALL_STATIONS,19048,12.12143823348791,pooled_all_rows
+h1,stacking,all_rows,station_train_mean,MACRO_AVERAGE,19048,15.436081667985118,macro_average
+h1,stacking,all_rows,station_train_mean,POOLED_ALL_STATIONS,19048,14.259654051908225,pooled_all_rows
+h1,stacking,common_timestamps,direct_model,Bollaram Industrial Area,1469,4.0799050229648826,station_level
+h1,stacking,common_timestamps,idw_p2,Bollaram Industrial Area,1469,12.691532900140684,station_level
+h1,stacking,common_timestamps,donor_mean,Bollaram Industrial Area,1469,14.178956474115612,station_level
+h1,stacking,common_timestamps,station_train_mean,Bollaram Industrial Area,1469,20.49625863552081,station_level
+h1,stacking,common_timestamps,direct_model,Central University,1469,2.663635478327609,station_level
+h1,stacking,common_timestamps,idw_p2,Central University,1469,11.127151550626891,station_level
+h1,stacking,common_timestamps,donor_mean,Central University,1469,9.239237955773918,station_level
+h1,stacking,common_timestamps,station_train_mean,Central University,1469,12.936204461121074,station_level
+h1,stacking,common_timestamps,direct_model,ECIL Kapra,1469,2.397775741538521,station_level
+h1,stacking,common_timestamps,idw_p2,ECIL Kapra,1469,14.769579698190931,station_level
+h1,stacking,common_timestamps,donor_mean,ECIL Kapra,1469,14.607931818268757,station_level
+h1,stacking,common_timestamps,station_train_mean,ECIL Kapra,1469,8.022519620817482,station_level
+h1,stacking,common_timestamps,direct_model,ICRISAT Patancheru,1469,3.812313005446507,station_level
+h1,stacking,common_timestamps,idw_p2,ICRISAT Patancheru,1469,6.980526560259415,station_level
+h1,stacking,common_timestamps,donor_mean,ICRISAT Patancheru,1469,7.440400862299971,station_level
+h1,stacking,common_timestamps,station_train_mean,ICRISAT Patancheru,1469,15.770522763129357,station_level
+h1,stacking,common_timestamps,direct_model,MACRO_AVERAGE,5876,3.2384073120693797,macro_average
+h1,stacking,common_timestamps,direct_model,POOLED_ALL_STATIONS,5876,3.2384073120693793,pooled_all_rows
+h1,stacking,common_timestamps,idw_p2,MACRO_AVERAGE,5876,11.39219767730448,macro_average
+h1,stacking,common_timestamps,idw_p2,POOLED_ALL_STATIONS,5876,11.392197677304479,pooled_all_rows
+h1,stacking,common_timestamps,donor_mean,MACRO_AVERAGE,5876,11.366631777614566,macro_average
+h1,stacking,common_timestamps,donor_mean,POOLED_ALL_STATIONS,5876,11.366631777614565,pooled_all_rows
+h1,stacking,common_timestamps,station_train_mean,MACRO_AVERAGE,5876,14.30637637014718,macro_average
+h1,stacking,common_timestamps,station_train_mean,POOLED_ALL_STATIONS,5876,14.30637637014718,pooled_all_rows
+h6,stacking,all_rows,direct_model,Bollaram Industrial Area,1823,7.694847104163627,station_level
+h6,stacking,all_rows,idw_p2,Bollaram Industrial Area,1823,12.565447229545,station_level
+h6,stacking,all_rows,donor_mean,Bollaram Industrial Area,1823,14.254674844446884,station_level
+h6,stacking,all_rows,station_train_mean,Bollaram Industrial Area,1823,20.736851181293513,station_level
+h6,stacking,all_rows,direct_model,Central University,5705,5.1615894482786056,station_level
+h6,stacking,all_rows,idw_p2,Central University,5705,14.183924178816714,station_level
+h6,stacking,all_rows,donor_mean,Central University,5705,14.448788473864742,station_level
+h6,stacking,all_rows,station_train_mean,Central University,5705,14.744188361549394,station_level
+h6,stacking,all_rows,direct_model,ECIL Kapra,5849,4.719922855613818,station_level
+h6,stacking,all_rows,idw_p2,ECIL Kapra,5849,10.829071185138213,station_level
+h6,stacking,all_rows,donor_mean,ECIL Kapra,5849,11.01843774769151,station_level
+h6,stacking,all_rows,station_train_mean,ECIL Kapra,5849,7.274633125151797,station_level
+h6,stacking,all_rows,direct_model,ICRISAT Patancheru,5563,7.607448438619016,station_level
+h6,stacking,all_rows,idw_p2,ICRISAT Patancheru,5563,9.710117543520239,station_level
+h6,stacking,all_rows,donor_mean,ICRISAT Patancheru,5563,10.907655304588246,station_level
+h6,stacking,all_rows,station_train_mean,ICRISAT Patancheru,5563,18.822938385427676,station_level
+h6,stacking,all_rows,direct_model,MACRO_AVERAGE,18940,6.2959519616687665,macro_average
+h6,stacking,all_rows,direct_model,POOLED_ALL_STATIONS,18940,5.987414916570357,pooled_all_rows
+h6,stacking,all_rows,idw_p2,MACRO_AVERAGE,18940,11.822140034255042,macro_average
+h6,stacking,all_rows,idw_p2,POOLED_ALL_STATIONS,18940,11.678073864629694,pooled_all_rows
+h6,stacking,all_rows,donor_mean,MACRO_AVERAGE,18940,12.657389092647845,macro_average
+h6,stacking,all_rows,donor_mean,POOLED_ALL_STATIONS,18940,12.330662055464469,pooled_all_rows
+h6,stacking,all_rows,station_train_mean,MACRO_AVERAGE,18940,15.394652763355595,macro_average
+h6,stacking,all_rows,station_train_mean,POOLED_ALL_STATIONS,18940,14.212260279476471,pooled_all_rows
+h6,stacking,common_timestamps,direct_model,Bollaram Industrial Area,1422,7.527574985783694,station_level
+h6,stacking,common_timestamps,idw_p2,Bollaram Industrial Area,1422,12.29540036266018,station_level
+h6,stacking,common_timestamps,donor_mean,Bollaram Industrial Area,1422,13.906091926028612,station_level
+h6,stacking,common_timestamps,station_train_mean,Bollaram Industrial Area,1422,20.444128054751406,station_level
+h6,stacking,common_timestamps,direct_model,Central University,1422,5.177474822491277,station_level
+h6,stacking,common_timestamps,idw_p2,Central University,1422,11.95323459135022,station_level
+h6,stacking,common_timestamps,donor_mean,Central University,1422,10.293870395797311,station_level
+h6,stacking,common_timestamps,station_train_mean,Central University,1422,12.919135021097048,station_level
+h6,stacking,common_timestamps,direct_model,ECIL Kapra,1422,5.195022018715067,station_level
+h6,stacking,common_timestamps,idw_p2,ECIL Kapra,1422,14.311931604995294,station_level
+h6,stacking,common_timestamps,donor_mean,ECIL Kapra,1422,14.173175771300665,station_level
+h6,stacking,common_timestamps,station_train_mean,ECIL Kapra,1422,8.092129615406543,station_level
+h6,stacking,common_timestamps,direct_model,ICRISAT Patancheru,1422,7.2526781938297855,station_level
+h6,stacking,common_timestamps,idw_p2,ICRISAT Patancheru,1422,7.97656385572632,station_level
+h6,stacking,common_timestamps,donor_mean,ICRISAT Patancheru,1422,8.172738042524408,station_level
+h6,stacking,common_timestamps,station_train_mean,ICRISAT Patancheru,1422,15.605446763295904,station_level
+h6,stacking,common_timestamps,direct_model,MACRO_AVERAGE,5688,6.288187505204956,macro_average
+h6,stacking,common_timestamps,direct_model,POOLED_ALL_STATIONS,5688,6.288187505204955,pooled_all_rows
+h6,stacking,common_timestamps,idw_p2,MACRO_AVERAGE,5688,11.634282603683003,macro_average
+h6,stacking,common_timestamps,idw_p2,POOLED_ALL_STATIONS,5688,11.634282603683005,pooled_all_rows
+h6,stacking,common_timestamps,donor_mean,MACRO_AVERAGE,5688,11.636469033912748,macro_average
+h6,stacking,common_timestamps,donor_mean,POOLED_ALL_STATIONS,5688,11.636469033912748,pooled_all_rows
+h6,stacking,common_timestamps,station_train_mean,MACRO_AVERAGE,5688,14.265209863637724,macro_average
+h6,stacking,common_timestamps,station_train_mean,POOLED_ALL_STATIONS,5688,14.265209863637724,pooled_all_rows
+h24,lgb,all_rows,direct_model,Bollaram Industrial Area,1715,8.78862531433936,station_level
+h24,lgb,all_rows,idw_p2,Bollaram Industrial Area,1715,13.374330082328003,station_level
+h24,lgb,all_rows,donor_mean,Bollaram Industrial Area,1715,14.88142528205403,station_level
+h24,lgb,all_rows,station_train_mean,Bollaram Industrial Area,1715,20.730278745310716,station_level
+h24,lgb,all_rows,direct_model,Central University,5585,5.598673441049404,station_level
+h24,lgb,all_rows,idw_p2,Central University,5585,14.581262797935628,station_level
+h24,lgb,all_rows,donor_mean,Central University,5585,14.934733758017005,station_level
+h24,lgb,all_rows,station_train_mean,Central University,5585,14.715515381344487,station_level
+h24,lgb,all_rows,direct_model,ECIL Kapra,5854,5.313572411670607,station_level
+h24,lgb,all_rows,idw_p2,ECIL Kapra,5854,9.875823613566661,station_level
+h24,lgb,all_rows,donor_mean,ECIL Kapra,5854,10.095857873198877,station_level
+h24,lgb,all_rows,station_train_mean,ECIL Kapra,5854,7.2767540400449695,station_level
+h24,lgb,all_rows,direct_model,ICRISAT Patancheru,5456,8.550049085058168,station_level
+h24,lgb,all_rows,idw_p2,ICRISAT Patancheru,5456,10.219518574153176,station_level
+h24,lgb,all_rows,donor_mean,ICRISAT Patancheru,5456,11.450562840302771,station_level
+h24,lgb,all_rows,station_train_mean,ICRISAT Patancheru,5456,18.688503902744067,station_level
+h24,lgb,all_rows,direct_model,MACRO_AVERAGE,18610,7.0627300630293846,macro_average
+h24,lgb,all_rows,direct_model,POOLED_ALL_STATIONS,18610,6.668232363694251,pooled_all_rows
+h24,lgb,all_rows,idw_p2,MACRO_AVERAGE,18610,12.012733766995867,macro_average
+h24,lgb,all_rows,idw_p2,POOLED_ALL_STATIONS,18610,11.71112808124997,pooled_all_rows
+h24,lgb,all_rows,donor_mean,MACRO_AVERAGE,18610,12.84064493839317,macro_average
+h24,lgb,all_rows,donor_mean,POOLED_ALL_STATIONS,18610,12.38622005607984,pooled_all_rows
+h24,lgb,all_rows,station_train_mean,MACRO_AVERAGE,18610,15.35276301736106,macro_average
+h24,lgb,all_rows,station_train_mean,POOLED_ALL_STATIONS,18610,14.094636050339156,pooled_all_rows
+h24,lgb,common_timestamps,direct_model,Bollaram Industrial Area,1280,8.46872303699141,station_level
+h24,lgb,common_timestamps,idw_p2,Bollaram Industrial Area,1280,13.15846188468758,station_level
+h24,lgb,common_timestamps,donor_mean,Bollaram Industrial Area,1280,14.569186146012191,station_level
+h24,lgb,common_timestamps,station_train_mean,Bollaram Industrial Area,1280,20.835351875799766,station_level
+h24,lgb,common_timestamps,direct_model,Central University,1280,5.483261168281937,station_level
+h24,lgb,common_timestamps,idw_p2,Central University,1280,11.481956160206106,station_level
+h24,lgb,common_timestamps,donor_mean,Central University,1280,10.253328846130307,station_level
+h24,lgb,common_timestamps,station_train_mean,Central University,1280,12.98982817158004,station_level
+h24,lgb,common_timestamps,direct_model,ECIL Kapra,1280,6.075218208717172,station_level
+h24,lgb,common_timestamps,idw_p2,ECIL Kapra,1280,13.485744081924082,station_level
+h24,lgb,common_timestamps,donor_mean,ECIL Kapra,1280,13.381334956498586,station_level
+h24,lgb,common_timestamps,station_train_mean,ECIL Kapra,1280,7.9296866618124655,station_level
+h24,lgb,common_timestamps,direct_model,ICRISAT Patancheru,1280,7.870684404048154,station_level
+h24,lgb,common_timestamps,idw_p2,ICRISAT Patancheru,1280,8.12783886591412,station_level
+h24,lgb,common_timestamps,donor_mean,ICRISAT Patancheru,1280,8.631998872444743,station_level
+h24,lgb,common_timestamps,station_train_mean,ICRISAT Patancheru,1280,15.61096588392565,station_level
+h24,lgb,common_timestamps,direct_model,MACRO_AVERAGE,5120,6.974471704509668,macro_average
+h24,lgb,common_timestamps,direct_model,POOLED_ALL_STATIONS,5120,6.974471704509668,pooled_all_rows
+h24,lgb,common_timestamps,idw_p2,MACRO_AVERAGE,5120,11.563500248182972,macro_average
+h24,lgb,common_timestamps,idw_p2,POOLED_ALL_STATIONS,5120,11.563500248182972,pooled_all_rows
+h24,lgb,common_timestamps,donor_mean,MACRO_AVERAGE,5120,11.708962205271458,macro_average
+h24,lgb,common_timestamps,donor_mean,POOLED_ALL_STATIONS,5120,11.708962205271458,pooled_all_rows
+h24,lgb,common_timestamps,station_train_mean,MACRO_AVERAGE,5120,14.34145814827948,macro_average
+h24,lgb,common_timestamps,station_train_mean,POOLED_ALL_STATIONS,5120,14.34145814827948,pooled_all_rows
+h48,lgb,all_rows,direct_model,Bollaram Industrial Area,1701,10.413569286199783,station_level
+h48,lgb,all_rows,idw_p2,Bollaram Industrial Area,1701,13.31807448606111,station_level
+h48,lgb,all_rows,donor_mean,Bollaram Industrial Area,1701,14.801140751080482,station_level
+h48,lgb,all_rows,station_train_mean,Bollaram Industrial Area,1701,20.69155139493311,station_level
+h48,lgb,all_rows,direct_model,Central University,5484,7.108658367188252,station_level
+h48,lgb,all_rows,idw_p2,Central University,5484,15.222062138672205,station_level
+h48,lgb,all_rows,donor_mean,Central University,5484,15.508988158321936,station_level
+h48,lgb,all_rows,station_train_mean,Central University,5484,14.584131626853983,station_level
+h48,lgb,all_rows,direct_model,ECIL Kapra,5855,6.049869319778179,station_level
+h48,lgb,all_rows,idw_p2,ECIL Kapra,5855,9.260769194729939,station_level
+h48,lgb,all_rows,donor_mean,ECIL Kapra,5855,9.480576386103332,station_level
+h48,lgb,all_rows,station_train_mean,ECIL Kapra,5855,7.2772894653186295,station_level
+h48,lgb,all_rows,direct_model,ICRISAT Patancheru,5371,10.033162008459996,station_level
+h48,lgb,all_rows,idw_p2,ICRISAT Patancheru,5371,10.913028782353503,station_level
+h48,lgb,all_rows,donor_mean,ICRISAT Patancheru,5371,12.030779852101993,station_level
+h48,lgb,all_rows,station_train_mean,ICRISAT Patancheru,5371,18.693426768911475,station_level
+h48,lgb,all_rows,direct_model,MACRO_AVERAGE,18411,8.401314745406552,macro_average
+h48,lgb,all_rows,direct_model,POOLED_ALL_STATIONS,18411,7.9304471161928225,pooled_all_rows
+h48,lgb,all_rows,idw_p2,MACRO_AVERAGE,18411,12.17848365045419,macro_average
+h48,lgb,all_rows,idw_p2,POOLED_ALL_STATIONS,18411,11.893298283332399,pooled_all_rows
+h48,lgb,all_rows,donor_mean,MACRO_AVERAGE,18411,12.955371286901935,macro_average
+h48,lgb,all_rows,donor_mean,POOLED_ALL_STATIONS,18411,12.511766053125859,pooled_all_rows
+h48,lgb,all_rows,station_train_mean,MACRO_AVERAGE,18411,15.3115998140043,macro_average
+h48,lgb,all_rows,station_train_mean,POOLED_ALL_STATIONS,18411,14.023498547591798,pooled_all_rows
+h48,lgb,common_timestamps,direct_model,Bollaram Industrial Area,1257,10.132026797125473,station_level
+h48,lgb,common_timestamps,idw_p2,Bollaram Industrial Area,1257,13.2324982917206,station_level
+h48,lgb,common_timestamps,donor_mean,Bollaram Industrial Area,1257,14.589057711770199,station_level
+h48,lgb,common_timestamps,station_train_mean,Bollaram Industrial Area,1257,20.73883396155571,station_level
+h48,lgb,common_timestamps,direct_model,Central University,1257,6.992313005047289,station_level
+h48,lgb,common_timestamps,idw_p2,Central University,1257,12.369938817287226,station_level
+h48,lgb,common_timestamps,donor_mean,Central University,1257,10.94631590400222,station_level
+h48,lgb,common_timestamps,station_train_mean,Central University,1257,12.946841271753389,station_level
+h48,lgb,common_timestamps,direct_model,ECIL Kapra,1257,6.507921654095123,station_level
+h48,lgb,common_timestamps,idw_p2,ECIL Kapra,1257,13.87937054885063,station_level
+h48,lgb,common_timestamps,donor_mean,ECIL Kapra,1257,13.852903919332999,station_level
+h48,lgb,common_timestamps,station_train_mean,ECIL Kapra,1257,7.821805294575842,station_level
+h48,lgb,common_timestamps,direct_model,ICRISAT Patancheru,1257,10.147359039610956,station_level
+h48,lgb,common_timestamps,idw_p2,ICRISAT Patancheru,1257,9.288038490736131,station_level
+h48,lgb,common_timestamps,donor_mean,ICRISAT Patancheru,1257,9.541525543724516,station_level
+h48,lgb,common_timestamps,station_train_mean,ICRISAT Patancheru,1257,15.57604237234772,station_level
+h48,lgb,common_timestamps,direct_model,MACRO_AVERAGE,5028,8.44490512396971,macro_average
+h48,lgb,common_timestamps,direct_model,POOLED_ALL_STATIONS,5028,8.44490512396971,pooled_all_rows
+h48,lgb,common_timestamps,idw_p2,MACRO_AVERAGE,5028,12.192461537148645,macro_average
+h48,lgb,common_timestamps,idw_p2,POOLED_ALL_STATIONS,5028,12.192461537148647,pooled_all_rows
+h48,lgb,common_timestamps,donor_mean,MACRO_AVERAGE,5028,12.232450769707484,macro_average
+h48,lgb,common_timestamps,donor_mean,POOLED_ALL_STATIONS,5028,12.232450769707482,pooled_all_rows
+h48,lgb,common_timestamps,station_train_mean,MACRO_AVERAGE,5028,14.270880725058165,macro_average
+h48,lgb,common_timestamps,station_train_mean,POOLED_ALL_STATIONS,5028,14.270880725058165,pooled_all_rows

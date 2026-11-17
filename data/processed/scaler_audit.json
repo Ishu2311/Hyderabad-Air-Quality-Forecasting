@@ -1,0 +1,58 @@
+{
+  "PM2.5": {
+    "training_mean": 33.4573,
+    "training_std": 18.9683
+  },
+  "PM10": {
+    "training_mean": 80.4299,
+    "training_std": 39.9019
+  },
+  "NO": {
+    "training_mean": 7.4945,
+    "training_std": 25.2816
+  },
+  "NO2": {
+    "training_mean": 19.8626,
+    "training_std": 18.6917
+  },
+  "NH3": {
+    "training_mean": 15.3103,
+    "training_std": 13.325
+  },
+  "SO2": {
+    "training_mean": 11.6782,
+    "training_std": 11.2455
+  },
+  "CO": {
+    "training_mean": 0.6504,
+    "training_std": 0.6027
+  },
+  "Ozone": {
+    "training_mean": 26.8792,
+    "training_std": 23.5522
+  },
+  "temperature_2m": {
+    "training_mean": 25.6753,
+    "training_std": 4.6029
+  },
+  "relative_humidity_2m": {
+    "training_mean": 64.1326,
+    "training_std": 21.976
+  },
+  "wind_speed_10m": {
+    "training_mean": 10.5791,
+    "training_std": 5.2429
+  },
+  "wind_direction_10m": {
+    "training_mean": 181.7985,
+    "training_std": 97.4613
+  },
+  "precipitation": {
+    "training_mean": 0.1324,
+    "training_std": 0.6584
+  },
+  "surface_pressure": {
+    "training_mean": 946.7551,
+    "training_std": 4.5911
+  }
+}

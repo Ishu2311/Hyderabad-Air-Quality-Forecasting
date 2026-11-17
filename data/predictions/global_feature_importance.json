@@ -1,0 +1,424 @@
+{
+  "horizons_analyzed": [
+    "h1",
+    "h6",
+    "h24",
+    "h48"
+  ],
+  "top_features_by_horizon": {
+    "h1": [
+      {
+        "rank": 1,
+        "feature": "PM2.5",
+        "mean_abs_shap": 9.589155041355005
+      },
+      {
+        "rank": 2,
+        "feature": "pm25_roll_mean_3h",
+        "mean_abs_shap": 1.5325503155413305
+      },
+      {
+        "rank": 3,
+        "feature": "pm25_roll_mean_24h",
+        "mean_abs_shap": 0.9604340517146691
+      },
+      {
+        "rank": 4,
+        "feature": "PM10",
+        "mean_abs_shap": 0.7521251830295655
+      },
+      {
+        "rank": 5,
+        "feature": "pm25_trend_diff_1h",
+        "mean_abs_shap": 0.4445238859420585
+      },
+      {
+        "rank": 6,
+        "feature": "hour_sin",
+        "mean_abs_shap": 0.32044220070942697
+      },
+      {
+        "rank": 7,
+        "feature": "pm10_lag_1",
+        "mean_abs_shap": 0.2568191615771671
+      },
+      {
+        "rank": 8,
+        "feature": "pm25_roll_min_24h",
+        "mean_abs_shap": 0.2426798137541646
+      },
+      {
+        "rank": 9,
+        "feature": "pm25_acceleration_1h",
+        "mean_abs_shap": 0.18915912000683885
+      },
+      {
+        "rank": 10,
+        "feature": "pm25_lag_24",
+        "mean_abs_shap": 0.16775233262455558
+      },
+      {
+        "rank": 11,
+        "feature": "no2_lag_1",
+        "mean_abs_shap": 0.16693272218363464
+      },
+      {
+        "rank": 12,
+        "feature": "CO",
+        "mean_abs_shap": 0.16677309900867307
+      },
+      {
+        "rank": 13,
+        "feature": "pm25_lag_1",
+        "mean_abs_shap": 0.16571033257658993
+      },
+      {
+        "rank": 14,
+        "feature": "NO2",
+        "mean_abs_shap": 0.1633033198909118
+      },
+      {
+        "rank": 15,
+        "feature": "hour_cos",
+        "mean_abs_shap": 0.15809405557733885
+      }
+    ],
+    "h6": [
+      {
+        "rank": 1,
+        "feature": "pm25_roll_mean_24h",
+        "mean_abs_shap": 6.976346463095755
+      },
+      {
+        "rank": 2,
+        "feature": "PM2.5",
+        "mean_abs_shap": 2.625822213761469
+      },
+      {
+        "rank": 3,
+        "feature": "pressure_tendency_3h",
+        "mean_abs_shap": 1.072098982481135
+      },
+      {
+        "rank": 4,
+        "feature": "hour_sin",
+        "mean_abs_shap": 0.9549961143263797
+      },
+      {
+        "rank": 5,
+        "feature": "pm25_roll_mean_12h",
+        "mean_abs_shap": 0.6867244110027936
+      },
+      {
+        "rank": 6,
+        "feature": "hour_cos",
+        "mean_abs_shap": 0.6189246896324735
+      },
+      {
+        "rank": 7,
+        "feature": "pm25_roll_min_24h",
+        "mean_abs_shap": 0.6098463416045145
+      },
+      {
+        "rank": 8,
+        "feature": "pm25_trend_diff_24h",
+        "mean_abs_shap": 0.3746391664590278
+      },
+      {
+        "rank": 9,
+        "feature": "act_vapor_pressure_ea",
+        "mean_abs_shap": 0.35965418295618934
+      },
+      {
+        "rank": 10,
+        "feature": "rh_lag_1",
+        "mean_abs_shap": 0.3495909981898203
+      },
+      {
+        "rank": 11,
+        "feature": "wind_speed_roll_mean_24h",
+        "mean_abs_shap": 0.33192907947850697
+      },
+      {
+        "rank": 12,
+        "feature": "month_cos",
+        "mean_abs_shap": 0.3039724399731344
+      },
+      {
+        "rank": 13,
+        "feature": "is_morning_peak",
+        "mean_abs_shap": 0.2975749152752931
+      },
+      {
+        "rank": 14,
+        "feature": "PM10",
+        "mean_abs_shap": 0.29017170510274093
+      },
+      {
+        "rank": 15,
+        "feature": "pm25_roll_max_24h",
+        "mean_abs_shap": 0.2896262771280838
+      }
+    ],
+    "h24": [
+      {
+        "rank": 1,
+        "feature": "pm25_roll_mean_3h",
+        "mean_abs_shap": 3.4556842341400227
+      },
+      {
+        "rank": 2,
+        "feature": "PM2.5",
+        "mean_abs_shap": 3.126405762153707
+      },
+      {
+        "rank": 3,
+        "feature": "pm25_roll_mean_24h",
+        "mean_abs_shap": 1.8281906982574754
+      },
+      {
+        "rank": 4,
+        "feature": "pm25_lag_24",
+        "mean_abs_shap": 1.0939373382867223
+      },
+      {
+        "rank": 5,
+        "feature": "surface_pressure",
+        "mean_abs_shap": 0.5997300809364732
+      },
+      {
+        "rank": 6,
+        "feature": "pm25_roll_min_24h",
+        "mean_abs_shap": 0.47324219444772536
+      },
+      {
+        "rank": 7,
+        "feature": "pm25_roll_mean_6h",
+        "mean_abs_shap": 0.43245302306084993
+      },
+      {
+        "rank": 8,
+        "feature": "wind_speed_roll_mean_6h",
+        "mean_abs_shap": 0.362596239533259
+      },
+      {
+        "rank": 9,
+        "feature": "temp_lag_1",
+        "mean_abs_shap": 0.3162575091895883
+      },
+      {
+        "rank": 10,
+        "feature": "Ozone",
+        "mean_abs_shap": 0.3153325732341336
+      },
+      {
+        "rank": 11,
+        "feature": "dew_point_temp",
+        "mean_abs_shap": 0.30716133034151666
+      },
+      {
+        "rank": 12,
+        "feature": "PM10",
+        "mean_abs_shap": 0.30555322209974034
+      },
+      {
+        "rank": 13,
+        "feature": "month_cos",
+        "mean_abs_shap": 0.2864581579658097
+      },
+      {
+        "rank": 14,
+        "feature": "act_vapor_pressure_ea",
+        "mean_abs_shap": 0.28225995533745796
+      },
+      {
+        "rank": 15,
+        "feature": "CO",
+        "mean_abs_shap": 0.26346907119220825
+      }
+    ],
+    "h48": [
+      {
+        "rank": 1,
+        "feature": "PM2.5",
+        "mean_abs_shap": 2.618572856785625
+      },
+      {
+        "rank": 2,
+        "feature": "pm25_roll_mean_3h",
+        "mean_abs_shap": 1.9459414769291659
+      },
+      {
+        "rank": 3,
+        "feature": "pm25_roll_mean_24h",
+        "mean_abs_shap": 1.293736973845519
+      },
+      {
+        "rank": 4,
+        "feature": "surface_pressure",
+        "mean_abs_shap": 1.1629272024875426
+      },
+      {
+        "rank": 5,
+        "feature": "pm25_roll_min_24h",
+        "mean_abs_shap": 1.0210025435902197
+      },
+      {
+        "rank": 6,
+        "feature": "pm25_roll_mean_6h",
+        "mean_abs_shap": 0.939826557412641
+      },
+      {
+        "rank": 7,
+        "feature": "is_monsoon",
+        "mean_abs_shap": 0.8782100342157007
+      },
+      {
+        "rank": 8,
+        "feature": "pm25_lag_24",
+        "mean_abs_shap": 0.6648721932198042
+      },
+      {
+        "rank": 9,
+        "feature": "pm25_roll_mean_12h",
+        "mean_abs_shap": 0.5659112139488244
+      },
+      {
+        "rank": 10,
+        "feature": "Ozone",
+        "mean_abs_shap": 0.5573917127771303
+      },
+      {
+        "rank": 11,
+        "feature": "act_vapor_pressure_ea",
+        "mean_abs_shap": 0.4948830136067827
+      },
+      {
+        "rank": 12,
+        "feature": "temp_lag_1",
+        "mean_abs_shap": 0.4938559495378534
+      },
+      {
+        "rank": 13,
+        "feature": "dew_point_temp",
+        "mean_abs_shap": 0.3963253684834124
+      },
+      {
+        "rank": 14,
+        "feature": "CO",
+        "mean_abs_shap": 0.3760883622088006
+      },
+      {
+        "rank": 15,
+        "feature": "hour_cos",
+        "mean_abs_shap": 0.36262716927180727
+      }
+    ]
+  },
+  "category_shares_by_horizon": {
+    "h1": {
+      "Historical PM2.5 Dynamics": {
+        "absolute_mean_shap": 13.686896727094577,
+        "share_pct": 79.58942807240949
+      },
+      "Co-Pollutant / Chemical Ratios": {
+        "absolute_mean_shap": 1.9596475038026178,
+        "share_pct": 11.39536793190107
+      },
+      "Other Environmental Predictors": {
+        "absolute_mean_shap": 0.40739557460108333,
+        "share_pct": 2.369008945434911
+      },
+      "Cyclical Calendar & Solar Timing": {
+        "absolute_mean_shap": 0.4989523264627506,
+        "share_pct": 2.9014122843460877
+      },
+      "Thermodynamics & Boundary Layer": {
+        "absolute_mean_shap": 0.29223952322377494,
+        "share_pct": 1.6993754667184724
+      },
+      "Wind & Dispersion Dynamics": {
+        "absolute_mean_shap": 0.35174619477588076,
+        "share_pct": 2.0454072991899808
+      }
+    },
+    "h6": {
+      "Historical PM2.5 Dynamics": {
+        "absolute_mean_shap": 13.083297914052904,
+        "share_pct": 62.27942443191383
+      },
+      "Co-Pollutant / Chemical Ratios": {
+        "absolute_mean_shap": 1.279422763905052,
+        "share_pct": 6.090338526611709
+      },
+      "Other Environmental Predictors": {
+        "absolute_mean_shap": 1.2093096623190696,
+        "share_pct": 5.756584480759014
+      },
+      "Cyclical Calendar & Solar Timing": {
+        "absolute_mean_shap": 1.9330903706687244,
+        "share_pct": 9.201942541628522
+      },
+      "Thermodynamics & Boundary Layer": {
+        "absolute_mean_shap": 2.10062136486943,
+        "share_pct": 9.999427545934605
+      },
+      "Wind & Dispersion Dynamics": {
+        "absolute_mean_shap": 1.4016741509613688,
+        "share_pct": 6.672282473152323
+      }
+    },
+    "h24": {
+      "Historical PM2.5 Dynamics": {
+        "absolute_mean_shap": 11.435804255553752,
+        "share_pct": 62.518526353996975
+      },
+      "Co-Pollutant / Chemical Ratios": {
+        "absolute_mean_shap": 1.2945343619189045,
+        "share_pct": 7.077104400635155
+      },
+      "Other Environmental Predictors": {
+        "absolute_mean_shap": 1.263499960872392,
+        "share_pct": 6.907442086000429
+      },
+      "Cyclical Calendar & Solar Timing": {
+        "absolute_mean_shap": 0.770233680525589,
+        "share_pct": 4.210799133894706
+      },
+      "Thermodynamics & Boundary Layer": {
+        "absolute_mean_shap": 2.238834020158982,
+        "share_pct": 12.239506777458097
+      },
+      "Wind & Dispersion Dynamics": {
+        "absolute_mean_shap": 1.288958424884079,
+        "share_pct": 7.0466212480146755
+      }
+    },
+    "h48": {
+      "Historical PM2.5 Dynamics": {
+        "absolute_mean_shap": 10.124826096960437,
+        "share_pct": 49.26481904903081
+      },
+      "Co-Pollutant / Chemical Ratios": {
+        "absolute_mean_shap": 1.9076608892525426,
+        "share_pct": 9.282190885644301
+      },
+      "Other Environmental Predictors": {
+        "absolute_mean_shap": 2.8429273994505286,
+        "share_pct": 13.832958962673757
+      },
+      "Cyclical Calendar & Solar Timing": {
+        "absolute_mean_shap": 1.1027268876293492,
+        "share_pct": 5.365587523115075
+      },
+      "Thermodynamics & Boundary Layer": {
+        "absolute_mean_shap": 3.4433327329854957,
+        "share_pct": 16.7543780398422
+      },
+      "Wind & Dispersion Dynamics": {
+        "absolute_mean_shap": 1.13036459254752,
+        "share_pct": 5.5000655396938445
+      }
+    }
+  }
+}

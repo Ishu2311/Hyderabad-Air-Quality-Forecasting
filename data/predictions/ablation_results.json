@@ -1,0 +1,234 @@
+{
+  "tiers_metadata": {
+    "Tier_A_Historical_Pollution_Only": {
+      "count": 45,
+      "description": "Historical PM2.5 lags, rolling stats, dynamic trends, co-pollutant chemical ratios, cyclical calendar."
+    },
+    "Tier_B_Primary_Physical_and_Weather": {
+      "count": 84,
+      "description": "Tier A + Open-Meteo ERA5 atmospheric thermodynamics, wind vectors, stability + temporal traffic windows (Approved Primary Predictors)."
+    },
+    "Tier_C_Exploratory_Sensitivity_Road_Proxies": {
+      "count": 103,
+      "description": "Tier B + 19 unverified OpenStreetMap road proxies and traffic pressure interaction terms (Exploratory Sensitivity Only)."
+    }
+  },
+  "horizons": {
+    "h1": {
+      "validation": {
+        "Tier_A_Historical_Pollution_Only": {
+          "n_samples": 30988,
+          "mae": 3.5134010739796464,
+          "rmse": 6.097092545916457,
+          "r2": 0.9099263422026511,
+          "bias": 0.10228551115557406,
+          "mda": 0.5912802142834092
+        },
+        "Tier_B_Primary_Physical_and_Weather": {
+          "n_samples": 30988,
+          "mae": 3.497842644764163,
+          "rmse": 6.0694653488299934,
+          "r2": 0.91074077785725,
+          "bias": 0.12422567618016615,
+          "mda": 0.5894730048084681
+        },
+        "Tier_C_Exploratory_Sensitivity_Road_Proxies": {
+          "n_samples": 30988,
+          "mae": 3.4856009404257153,
+          "rmse": 6.043404676809148,
+          "r2": 0.9115056430416366,
+          "bias": 0.12456824562578511,
+          "mda": 0.5902475231548714
+        }
+      },
+      "test": {
+        "Tier_A_Historical_Pollution_Only": {
+          "n_samples": 19073,
+          "mae": 3.0806966722515865,
+          "rmse": 5.5869451640142085,
+          "r2": 0.8994569759238097,
+          "bias": -0.044611230193160115,
+          "mda": 0.5694735738255033
+        },
+        "Tier_B_Primary_Physical_and_Weather": {
+          "n_samples": 19073,
+          "mae": 3.057177399277055,
+          "rmse": 5.559641457227021,
+          "r2": 0.9004372931468649,
+          "bias": 0.004065002342389773,
+          "mda": 0.5660654362416108
+        },
+        "Tier_C_Exploratory_Sensitivity_Road_Proxies": {
+          "n_samples": 19073,
+          "mae": 3.056599007365415,
+          "rmse": 5.57282880616733,
+          "r2": 0.899964411817081,
+          "bias": 0.011653249202829894,
+          "mda": 0.5687919463087249
+        }
+      }
+    },
+    "h6": {
+      "validation": {
+        "Tier_A_Historical_Pollution_Only": {
+          "n_samples": 30983,
+          "mae": 6.843819529829805,
+          "rmse": 10.219740620147432,
+          "r2": 0.7468472435751781,
+          "bias": 0.19708330833921078,
+          "mda": 0.5488993609192434
+        },
+        "Tier_B_Primary_Physical_and_Weather": {
+          "n_samples": 30983,
+          "mae": 6.836171898282544,
+          "rmse": 10.116824851677961,
+          "r2": 0.7519202153286463,
+          "bias": 0.5448758384506889,
+          "mda": 0.5522884255374089
+        },
+        "Tier_C_Exploratory_Sensitivity_Road_Proxies": {
+          "n_samples": 30983,
+          "mae": 6.740292939999149,
+          "rmse": 10.031459482574302,
+          "r2": 0.7560891271299984,
+          "bias": 0.5837608366228999,
+          "mda": 0.5574849912852624
+        }
+      },
+      "test": {
+        "Tier_A_Historical_Pollution_Only": {
+          "n_samples": 19078,
+          "mae": 5.913619260563952,
+          "rmse": 9.048059825060614,
+          "r2": 0.7356501336028234,
+          "bias": 0.5872143504296549,
+          "mda": 0.5394454054620748
+        },
+        "Tier_B_Primary_Physical_and_Weather": {
+          "n_samples": 19078,
+          "mae": 6.100943972291565,
+          "rmse": 9.099215514045808,
+          "r2": 0.732652534602551,
+          "bias": 1.38779810799193,
+          "mda": 0.545421187817791
+        },
+        "Tier_C_Exploratory_Sensitivity_Road_Proxies": {
+          "n_samples": 19078,
+          "mae": 5.910777841284092,
+          "rmse": 8.929315013968042,
+          "r2": 0.7425431463732075,
+          "bias": 1.245116579314985,
+          "mda": 0.5467840855480421
+        }
+      }
+    },
+    "h24": {
+      "validation": {
+        "Tier_A_Historical_Pollution_Only": {
+          "n_samples": 30974,
+          "mae": 8.121663765604511,
+          "rmse": 11.719005324156113,
+          "r2": 0.6671462487355997,
+          "bias": 0.41935718846809733,
+          "mda": 0.5825396312917702
+        },
+        "Tier_B_Primary_Physical_and_Weather": {
+          "n_samples": 30974,
+          "mae": 8.024913083194507,
+          "rmse": 11.522318990892247,
+          "r2": 0.6782254131596326,
+          "bias": 0.6022724662458865,
+          "mda": 0.5734349271946534
+        },
+        "Tier_C_Exploratory_Sensitivity_Road_Proxies": {
+          "n_samples": 30974,
+          "mae": 7.93247296354356,
+          "rmse": 11.487242143887164,
+          "r2": 0.680181557225768,
+          "bias": 0.45135777399038207,
+          "mda": 0.5726600587608562
+        }
+      },
+      "test": {
+        "Tier_A_Historical_Pollution_Only": {
+          "n_samples": 19099,
+          "mae": 6.85592063331022,
+          "rmse": 10.14011264410637,
+          "r2": 0.664284371650488,
+          "bias": 0.9534024533363126,
+          "mda": 0.5738297203895696
+        },
+        "Tier_B_Primary_Physical_and_Weather": {
+          "n_samples": 19099,
+          "mae": 6.91500062084143,
+          "rmse": 10.121250497720052,
+          "r2": 0.6655321739211648,
+          "bias": 1.626343724556705,
+          "mda": 0.5630432506021573
+        },
+        "Tier_C_Exploratory_Sensitivity_Road_Proxies": {
+          "n_samples": 19099,
+          "mae": 6.806800499042543,
+          "rmse": 9.981212756423481,
+          "r2": 0.6747235465737993,
+          "bias": 1.4764781371026028,
+          "mda": 0.5650853492512304
+        }
+      }
+    },
+    "h48": {
+      "validation": {
+        "Tier_A_Historical_Pollution_Only": {
+          "n_samples": 30953,
+          "mae": 9.508186616440476,
+          "rmse": 13.20285586205772,
+          "r2": 0.5779879899619369,
+          "bias": 0.7227591993230255,
+          "mda": 0.5644223313517704
+        },
+        "Tier_B_Primary_Physical_and_Weather": {
+          "n_samples": 30953,
+          "mae": 9.419544676528123,
+          "rmse": 12.975741720749937,
+          "r2": 0.5923819270552139,
+          "bias": 0.9870566403431783,
+          "mda": 0.5617730679762213
+        },
+        "Tier_C_Exploratory_Sensitivity_Road_Proxies": {
+          "n_samples": 30953,
+          "mae": 9.295372904621523,
+          "rmse": 12.931916920777903,
+          "r2": 0.5951306891629513,
+          "bias": 0.8713687152523861,
+          "mda": 0.5594468855001292
+        }
+      },
+      "test": {
+        "Tier_A_Historical_Pollution_Only": {
+          "n_samples": 19119,
+          "mae": 8.027264309634015,
+          "rmse": 11.236538920179976,
+          "r2": 0.5828728050873806,
+          "bias": 1.8065063495723885,
+          "mda": 0.5682602782717857
+        },
+        "Tier_B_Primary_Physical_and_Weather": {
+          "n_samples": 19119,
+          "mae": 8.199846070606045,
+          "rmse": 11.305592118803748,
+          "r2": 0.5777302120847945,
+          "bias": 2.716892275080283,
+          "mda": 0.5611465634480595
+        },
+        "Tier_C_Exploratory_Sensitivity_Road_Proxies": {
+          "n_samples": 19119,
+          "mae": 8.040271085725779,
+          "rmse": 11.09882012283548,
+          "r2": 0.593035047343825,
+          "bias": 2.5457715836974537,
+          "mda": 0.5653834083063082
+        }
+      }
+    }
+  }
+}

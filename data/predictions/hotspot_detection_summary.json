@@ -1,0 +1,162 @@
+{
+  "h1": {
+    "horizon": "h1",
+    "threshold_acute_ug_m3": 60.0,
+    "threshold_spike_ug_m3": 120.0,
+    "grid_dimensions": {
+      "Ny": 80,
+      "Nx": 80,
+      "total_cells": 6400
+    },
+    "acute_excursion_cells": 2,
+    "acute_excursion_area_pct": 0.03125,
+    "severe_spike_cells": 0,
+    "severe_spike_area_pct": 0.0,
+    "uncertainty_breakdown_acute": {
+      "mean_distance_to_sensor_km": 0.14827482580457116,
+      "proximate_cells_le_5km": 2,
+      "intermediate_cells_5_to_15km": 0,
+      "extrapolation_cells_gt_15km": 0,
+      "pct_extrapolation": 0.0
+    },
+    "station_observations": {
+      "Bollaram Industrial Area": {
+        "predicted_pm25": 59.51769014844501,
+        "status": "COMPLIANT (< 60 ug/m3)"
+      },
+      "Central University": {
+        "predicted_pm25": 38.77593038393295,
+        "status": "COMPLIANT (< 60 ug/m3)"
+      },
+      "ECIL Kapra": {
+        "predicted_pm25": 30.886017104738468,
+        "status": "COMPLIANT (< 60 ug/m3)"
+      },
+      "ICRISAT Patancheru": {
+        "predicted_pm25": 60.01732555471446,
+        "status": "ACUTE EXCURSION (>= 60 ug/m3)"
+      }
+    },
+    "research_disclosure": "Interpolated hotspot cells reflect spatial continuous weighting between reporting stations. Cells classified as 'Extrapolation (> 15km)' carry high spatial estimation variance and must NOT be interpreted as confirmed ground-level violations."
+  },
+  "h6": {
+    "horizon": "h6",
+    "threshold_acute_ug_m3": 60.0,
+    "threshold_spike_ug_m3": 120.0,
+    "grid_dimensions": {
+      "Ny": 80,
+      "Nx": 80,
+      "total_cells": 6400
+    },
+    "acute_excursion_cells": 0,
+    "acute_excursion_area_pct": 0.0,
+    "severe_spike_cells": 0,
+    "severe_spike_area_pct": 0.0,
+    "uncertainty_breakdown_acute": {
+      "mean_distance_to_sensor_km": NaN,
+      "proximate_cells_le_5km": 0,
+      "intermediate_cells_5_to_15km": 0,
+      "extrapolation_cells_gt_15km": 0,
+      "pct_extrapolation": 0.0
+    },
+    "station_observations": {
+      "Bollaram Industrial Area": {
+        "predicted_pm25": 49.745401455174054,
+        "status": "COMPLIANT (< 60 ug/m3)"
+      },
+      "Central University": {
+        "predicted_pm25": 33.797059567868544,
+        "status": "COMPLIANT (< 60 ug/m3)"
+      },
+      "ECIL Kapra": {
+        "predicted_pm25": 31.896647988809526,
+        "status": "COMPLIANT (< 60 ug/m3)"
+      },
+      "ICRISAT Patancheru": {
+        "predicted_pm25": 44.30890490286696,
+        "status": "COMPLIANT (< 60 ug/m3)"
+      }
+    },
+    "research_disclosure": "Interpolated hotspot cells reflect spatial continuous weighting between reporting stations. Cells classified as 'Extrapolation (> 15km)' carry high spatial estimation variance and must NOT be interpreted as confirmed ground-level violations."
+  },
+  "h24": {
+    "horizon": "h24",
+    "threshold_acute_ug_m3": 60.0,
+    "threshold_spike_ug_m3": 120.0,
+    "grid_dimensions": {
+      "Ny": 80,
+      "Nx": 80,
+      "total_cells": 6400
+    },
+    "acute_excursion_cells": 1435,
+    "acute_excursion_area_pct": 22.421875,
+    "severe_spike_cells": 0,
+    "severe_spike_area_pct": 0.0,
+    "uncertainty_breakdown_acute": {
+      "mean_distance_to_sensor_km": 5.185192163336065,
+      "proximate_cells_le_5km": 734,
+      "intermediate_cells_5_to_15km": 701,
+      "extrapolation_cells_gt_15km": 0,
+      "pct_extrapolation": 0.0
+    },
+    "station_observations": {
+      "Bollaram Industrial Area": {
+        "predicted_pm25": 62.39798212178255,
+        "status": "ACUTE EXCURSION (>= 60 ug/m3)"
+      },
+      "Central University": {
+        "predicted_pm25": 43.85449239259574,
+        "status": "COMPLIANT (< 60 ug/m3)"
+      },
+      "ECIL Kapra": {
+        "predicted_pm25": 37.4675775743309,
+        "status": "COMPLIANT (< 60 ug/m3)"
+      },
+      "ICRISAT Patancheru": {
+        "predicted_pm25": 67.33727969822306,
+        "status": "ACUTE EXCURSION (>= 60 ug/m3)"
+      }
+    },
+    "research_disclosure": "Interpolated hotspot cells reflect spatial continuous weighting between reporting stations. Cells classified as 'Extrapolation (> 15km)' carry high spatial estimation variance and must NOT be interpreted as confirmed ground-level violations."
+  },
+  "h48": {
+    "horizon": "h48",
+    "threshold_acute_ug_m3": 60.0,
+    "threshold_spike_ug_m3": 120.0,
+    "grid_dimensions": {
+      "Ny": 80,
+      "Nx": 80,
+      "total_cells": 6400
+    },
+    "acute_excursion_cells": 1116,
+    "acute_excursion_area_pct": 17.4375,
+    "severe_spike_cells": 0,
+    "severe_spike_area_pct": 0.0,
+    "uncertainty_breakdown_acute": {
+      "mean_distance_to_sensor_km": 5.083398329842102,
+      "proximate_cells_le_5km": 571,
+      "intermediate_cells_5_to_15km": 545,
+      "extrapolation_cells_gt_15km": 0,
+      "pct_extrapolation": 0.0
+    },
+    "station_observations": {
+      "Bollaram Industrial Area": {
+        "predicted_pm25": 60.67388623456581,
+        "status": "ACUTE EXCURSION (>= 60 ug/m3)"
+      },
+      "Central University": {
+        "predicted_pm25": 49.00147335587805,
+        "status": "COMPLIANT (< 60 ug/m3)"
+      },
+      "ECIL Kapra": {
+        "predicted_pm25": 37.51380167257628,
+        "status": "COMPLIANT (< 60 ug/m3)"
+      },
+      "ICRISAT Patancheru": {
+        "predicted_pm25": 64.79853229717571,
+        "status": "ACUTE EXCURSION (>= 60 ug/m3)"
+      }
+    },
+    "research_disclosure": "Interpolated hotspot cells reflect spatial continuous weighting between reporting stations. Cells classified as 'Extrapolation (> 15km)' carry high spatial estimation variance and must NOT be interpreted as confirmed ground-level violations."
+  }
+}

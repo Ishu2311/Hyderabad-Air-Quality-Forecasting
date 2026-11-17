@@ -1,0 +1,179 @@
+{
+  "horizon": "h1",
+  "primary_model": "stacking",
+  "expected_value": 33.70781433120711,
+  "n_explain_samples": 100,
+  "meta_coefficients": {
+    "beta_rf": 0.1253200138792162,
+    "beta_xgb": 0.4479962531997921,
+    "beta_lgb": 0.43942015917891974,
+    "intercept": -0.4135550924850122
+  },
+  "top_15_features": [
+    {
+      "rank": 1,
+      "feature": "PM2.5",
+      "mean_abs_shap": 9.589155041355005
+    },
+    {
+      "rank": 2,
+      "feature": "pm25_roll_mean_3h",
+      "mean_abs_shap": 1.5325503155413305
+    },
+    {
+      "rank": 3,
+      "feature": "pm25_roll_mean_24h",
+      "mean_abs_shap": 0.9604340517146691
+    },
+    {
+      "rank": 4,
+      "feature": "PM10",
+      "mean_abs_shap": 0.7521251830295655
+    },
+    {
+      "rank": 5,
+      "feature": "pm25_trend_diff_1h",
+      "mean_abs_shap": 0.4445238859420585
+    },
+    {
+      "rank": 6,
+      "feature": "hour_sin",
+      "mean_abs_shap": 0.32044220070942697
+    },
+    {
+      "rank": 7,
+      "feature": "pm10_lag_1",
+      "mean_abs_shap": 0.2568191615771671
+    },
+    {
+      "rank": 8,
+      "feature": "pm25_roll_min_24h",
+      "mean_abs_shap": 0.2426798137541646
+    },
+    {
+      "rank": 9,
+      "feature": "pm25_acceleration_1h",
+      "mean_abs_shap": 0.18915912000683885
+    },
+    {
+      "rank": 10,
+      "feature": "pm25_lag_24",
+      "mean_abs_shap": 0.16775233262455558
+    },
+    {
+      "rank": 11,
+      "feature": "no2_lag_1",
+      "mean_abs_shap": 0.16693272218363464
+    },
+    {
+      "rank": 12,
+      "feature": "CO",
+      "mean_abs_shap": 0.16677309900867307
+    },
+    {
+      "rank": 13,
+      "feature": "pm25_lag_1",
+      "mean_abs_shap": 0.16571033257658993
+    },
+    {
+      "rank": 14,
+      "feature": "NO2",
+      "mean_abs_shap": 0.1633033198909118
+    },
+    {
+      "rank": 15,
+      "feature": "hour_cos",
+      "mean_abs_shap": 0.15809405557733885
+    }
+  ],
+  "station_stratified_top5": {
+    "ECIL Kapra": [
+      {
+        "feature": "PM2.5",
+        "mean_abs_shap": 5.993463624398192
+      },
+      {
+        "feature": "pm25_roll_mean_3h",
+        "mean_abs_shap": 0.9334276764562256
+      },
+      {
+        "feature": "pm25_roll_mean_24h",
+        "mean_abs_shap": 0.6437255268803382
+      },
+      {
+        "feature": "pm25_trend_diff_1h",
+        "mean_abs_shap": 0.4694424967765417
+      },
+      {
+        "feature": "PM10",
+        "mean_abs_shap": 0.4130426475364746
+      }
+    ],
+    "ICRISAT Patancheru": [
+      {
+        "feature": "PM2.5",
+        "mean_abs_shap": 11.661382999465461
+      },
+      {
+        "feature": "pm25_roll_mean_3h",
+        "mean_abs_shap": 1.8790751221988111
+      },
+      {
+        "feature": "pm25_roll_mean_24h",
+        "mean_abs_shap": 1.0882097728352862
+      },
+      {
+        "feature": "PM10",
+        "mean_abs_shap": 0.8513951972469473
+      },
+      {
+        "feature": "pm25_trend_diff_1h",
+        "mean_abs_shap": 0.6824299829300021
+      }
+    ],
+    "Bollaram Industrial Area": [
+      {
+        "feature": "PM2.5",
+        "mean_abs_shap": 4.871048618498943
+      },
+      {
+        "feature": "pm25_roll_mean_3h",
+        "mean_abs_shap": 0.8918863665278195
+      },
+      {
+        "feature": "pm25_roll_mean_24h",
+        "mean_abs_shap": 0.581319824832012
+      },
+      {
+        "feature": "PM10",
+        "mean_abs_shap": 0.29108995355068307
+      },
+      {
+        "feature": "hour_sin",
+        "mean_abs_shap": 0.2688941785443812
+      }
+    ],
+    "Central University": [
+      {
+        "feature": "PM2.5",
+        "mean_abs_shap": 14.427761446628153
+      },
+      {
+        "feature": "pm25_roll_mean_3h",
+        "mean_abs_shap": 2.2267126934511294
+      },
+      {
+        "feature": "pm25_roll_mean_24h",
+        "mean_abs_shap": 1.4246068646284513
+      },
+      {
+        "feature": "PM10",
+        "mean_abs_shap": 1.3360337772854733
+      },
+      {
+        "feature": "pm25_trend_diff_1h",
+        "mean_abs_shap": 0.4143556216576419
+      }
+    ]
+  }
+}
