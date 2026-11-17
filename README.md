@@ -289,9 +289,5 @@ python -m pytest implementation/tests -v
 ============================== 64 passed in ~16s ==============================
 ```
 
----
 
-## Research Ethics & Regulatory Disclaimers
 
-> [!CAUTION]
-> **Academic Research Prototype:** This system is an academic research demonstration developed for university capstone evaluation. It is **not** certified for regulatory compliance, municipal air quality index enforcement, or emergency medical guidance. Interpolated spatial surfaces between CAAQMS monitoring stations represent mathematical estimations and should not be treated as neighborhood-level ground truth.
