@@ -64,18 +64,13 @@ def main():
         else:
             st.error(f"Unknown page section: {selected_page}")
 
-        # Persistent Academic Research Footer (IQAir / Academic Capstone style)
+        # Persistent Research Prototype Footer
         render_html(
             """
-            <div class="academic-footer">
-                <div class="academic-footer-title">
-                    Multi-Source Spatio-Temporal PM2.5 Forecasting and Hotspot Analysis in Hyderabad Using Explainable Machine Learning
-                </div>
-                <div class="academic-footer-meta">
-                    <strong>Research prototype, not for regulatory or public health use.</strong><br>
-                    Student Researcher: <strong>[YOUR NAME]</strong> • Project Guide: <strong>[GUIDE NAME]</strong> • Institution: <strong>[COLLEGE]</strong><br>
-                    CPCB CAAQMS Continuous In-Situ Telemetry | Open-Meteo ERA5 Atmospheric Dynamics | Tree Ensembles | TreeSHAP Attribution.
-                </div>
+            <div style="margin-top: 32px; padding: 24px 16px; border-top: 1px solid #e2e8f0; text-align: center; color: #64748b; font-size: 13px; line-height: 1.6;">
+                <div><strong>Hyderabad Air Forecast · Capstone research prototype</strong></div>
+                <div>Not for regulatory or public health use · Replays 2026 test data, not a live feed</div>
+                <div style="font-size: 11px; color: #94a3b8; margin-top: 4px;">Data: CPCB CAAQMS observations · Open-Meteo weather</div>
             </div>
             """
         )
